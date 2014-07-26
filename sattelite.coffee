@@ -1,14 +1,19 @@
-if Meteor.isClient
-  Template.hello.greeting = ->
-    "Welcome to sattelite."
+# collections
+Dishes = new Meteor.Collection "dishes"
 
-  Template.hello.events "click input": ->
-    
-    # template data, if any, is available in 'this'
-    console.log "You pressed the button"  if typeof console isnt "undefined"
+if Meteor.isClient
+  Template.dishes.dishes = ->
+    Dishes.find {}
 
 if Meteor.isServer
   Meteor.startup ->
-
-
-# code to run on server at startup
+    # if no dishes add some...
+    if !_.any Dishes
+      fs = Npm.require 'fs'
+      path = Npm.require 'path'
+      basepath = path.resolve '.'
+      file = "/Users/basti/Development/meteor/sattelite/dishes.json"
+      dishes_json = fs.readFileSync file, 'utf8'
+      dishes_init = JSON.parse dishes_json
+      for dish in dishes_init
+        Dishes.insert dish
