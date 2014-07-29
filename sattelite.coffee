@@ -2,6 +2,11 @@
 Dishes = new Meteor.Collection "dishes"
 
 if Meteor.isClient
+  # config
+  Accounts.ui.config({
+    passwordSignupFields: 'USERNAME_ONLY'
+  })
+  
   Template.dishes.dishes = ->
     Dishes.find {}
 

@@ -2,6 +2,7 @@
   "packages": {
     "jade": {},
     "bootstrap-3": {},
-    "lodash": {}
+    "lodash": {},
+    "accounts-ui-bootstrap-3": {}
   }
 }
