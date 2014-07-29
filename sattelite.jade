@@ -30,12 +30,13 @@ template(name="main")
         +dishes
 
 template(name="dishes")
-  div.dish
+  div.dishes
     each dishes
-      .row
-        .col-md-2
-          .order_number #{order_number}
-        .col-md-8
-          .name #{name}
-        .col-md-2
-          .price #{price}
+      .dish
+        .row
+          .col-md-2
+            .order_number #{order_number}
+          .col-md-8
+            .name #{name}
+          .col-md-2
+            .price #{price} €
