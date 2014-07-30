@@ -5,7 +5,8 @@
       "jade": {},
       "bootstrap-3": {},
       "lodash": {},
-      "accounts-ui-bootstrap-3": {}
+      "accounts-ui-bootstrap-3": {},
+      "collection2": {}
     },
     "packages": {
       "jade": {
@@ -27,6 +28,16 @@
         "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
         "tag": "v0.3.3",
         "commit": "2e50b605d8d5ed68e48c4529a65f13552d8af3f9"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.4.3",
+        "commit": "cb470de2cfeebeccbf76d4cc0a39ad4afc76d553"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.6.0",
+        "commit": "418ec496612fb2afc853e342f0d2269b6674a2fe"
       }
     }
   }
