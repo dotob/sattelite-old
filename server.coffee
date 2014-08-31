@@ -4,7 +4,7 @@ if Meteor.isServer
     if !_.any share.Dishes.find({}).fetch()
       fs = Npm.require 'fs'
       path = Npm.require 'path'
-      basepath = path.resolve '.'
+      basepath = path.resolve('.').split('.meteor')[0]
       file = basepath + "/dishes.json"
       dishes_json = fs.readFileSync file, 'utf8'
       dishes_init = JSON.parse dishes_json
