@@ -8,8 +8,8 @@ autopublish
 insecure
 coffeescript
 jade
-bootstrap-3
-lodash
+mizzao:bootstrap-3
+alethes:lodash@0.7.1
 accounts-password
 accounts-ui-bootstrap-3
 stylus
