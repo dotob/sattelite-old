@@ -5,7 +5,7 @@ if Meteor.isServer
       fs = Npm.require 'fs'
       path = Npm.require 'path'
       basepath = path.resolve '.'
-      file = "/Users/basti/Development/meteor/sattelite/dishes.json"
+      file = basepath + "/dishes.json"
       dishes_json = fs.readFileSync file, 'utf8'
       dishes_init = JSON.parse dishes_json
       for dish in dishes_init
