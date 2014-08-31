@@ -1,5 +1,8 @@
 # collections
-Schema.User = new SimpleSchema({
+
+Schemas = {}
+
+Schemas.User = new SimpleSchema({
     _id: {
         type: String,
         regEx: SimpleSchema.RegEx.Id
@@ -22,7 +25,7 @@ Schema.User = new SimpleSchema({
         type: Date
     }
 })
-Meteor.users.attachSchema(Schema.User);
+Meteor.users.attachSchema(Schemas.User);
 
 
 Schemas.Menu = new SimpleSchema({
@@ -57,12 +60,12 @@ Schemas.Dish = new SimpleSchema({
     max: 200
   },
   menu: {
-    type: Schema.Menu,
+    type: Schemas.Menu,
     label: "Lieferant",
     max: 200
   },
   order_count: {
-    type: Integer,
+    type: Number,
     label: "Bestellanzahl",
     max: 200
   },
@@ -108,7 +111,7 @@ Schemas.OrderItem = new SimpleSchema({
     max: 200
   },
   order: {
-    type: Schema.Order,
+    type: Schemas.Order,
     label: "Bestellung",
   }
 })
