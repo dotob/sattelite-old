@@ -37,6 +37,7 @@ Schemas.Menu = new SimpleSchema({
   description: {
     type: String,
     label: "Beschreibung",
+    optional: true,
     max: 200
   },
   phone: {
@@ -72,6 +73,7 @@ Schemas.Dish = new SimpleSchema({
   description: {
     type: String,
     label: "Beschreibung",
+    optional: true,
     max: 200
   }
 })
