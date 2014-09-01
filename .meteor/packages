@@ -7,10 +7,11 @@ standard-app-packages
 autopublish
 insecure
 coffeescript
-mizzao:bootstrap-3
 alethes:lodash@0.7.1
 accounts-password
 stylus
 aldeed:collection2
 ian:accounts-ui-bootstrap-3
+ian:bootstrap-3
+waitingkuo:jade
 
