@@ -1,5 +1,4 @@
 # collections
-
 Schemas = {}
 
 Schemas.User = new SimpleSchema({
