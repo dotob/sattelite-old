@@ -70,6 +70,17 @@ Schemas.Dish = new SimpleSchema({
     label: "Bestellanzahl",
     max: 200
   },
+  order_number: {
+    type: String,
+    label: "Bestellnummer",
+    optional: true,
+    max: 200
+  },
+  price: {
+    type: String,
+    label: "Preis",
+    max: 200
+  },
   description: {
     type: String,
     label: "Beschreibung",
