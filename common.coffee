@@ -88,6 +88,7 @@ Schemas.Dish = new SimpleSchema({
     max: 200
   }
 })
+
 share.Dishes.attachSchema(Schemas.Dish);
 
 
