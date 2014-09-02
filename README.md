@@ -5,8 +5,13 @@ satt in meteor
 
 ## glossary
 
-- dish : a meal you can order
-- menu : a place that offers dishes
-- food run : someone organizes a food run. participants can order, the organizer calls and orders the food
-- organizer : organizes the food run
-- participant : someone ordering a dish 
+_shared vocabulary_: so that everybody on the team knows what we're talking about...
+
+- dish: a meal you can order at a takeaway
+- menu: a list of all dishes of a single takeaway
+- takeaway: takeout restaurant where you can order dishes
+- participant: takes part in the food run, e.g. 
+- organizer: is responsible for the food run, especially for ordering food 
+- to order: call the takeaway and order the food
+- to bespeak: mark a dish for order
+- food run: the process of bespeaking, ordering and eating food
