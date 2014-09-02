@@ -1,0 +1,1 @@
+meteor --port $IP:$PORT
