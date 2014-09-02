@@ -27,15 +27,15 @@ template(name="main")
   .container
     .row
       .col-md-12
-        +deliveries
+        +takeaways
     .row
       .col-md-12
         +dishes
 
-template(name="deliveries")
-  .deliveries
-    each deliveries
-      span.delivery #{name}
+template(name="takeaways")
+  .takeaways
+    each takeaways
+      span.takeaway #{name}
 
 template(name="dishes")
   .dishes
