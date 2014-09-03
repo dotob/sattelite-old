@@ -34,8 +34,12 @@ template(name="main")
 
 template(name="takeaways")
   .takeaways
-    each takeaways
-      span.takeaway #{name}
+    .row
+      each takeaways
+        .col-md-2
+          .takeaway
+            .name #{name}
+            .phone #{phone}
 
 template(name="dishes")
   .dishes
