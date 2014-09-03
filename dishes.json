@@ -45,7 +45,7 @@
     }
   },
   {
-    "description": "mit Champignons, Broccoli, H\\u00e4hnchenbrust, Knoblauch",
+    "description": "mit Champignons, Broccoli, Hühnchenbrust, Knoblauch",
     "id": 358,
     "name": "Pizza Pollo Speziale",
     "order_count": -1,
@@ -60,7 +60,7 @@
     }
   },
   {
-    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle\r\n\r\nmit Pesto, Basilikum, Oliven\\u00f6l, Parmesan",
+    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle mit Pesto, Basilikum, Olivenöl, Parmesan",
     "id": 357,
     "name": "Pasta Pesto Natura",
     "order_count": -1,
@@ -75,7 +75,7 @@
     }
   },
   {
-    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle\r\n\r\nmit Rindfleisch, Spinat, Paprika, Tomatensauce, scharf",
+    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle mit Rindfleisch, Spinat, Paprika, Tomatensauce, scharf",
     "id": 356,
     "name": "Rigatoni Diavolo ",
     "order_count": -1,
@@ -90,7 +90,7 @@
     }
   },
   {
-    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle\r\n\r\nmit Paprika, Champignon, Tomatensauce, Knoblauch",
+    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle mit Paprika, Champignon, Tomatensauce, Knoblauch",
     "id": 355,
     "name": "Pasta Singara",
     "order_count": -1,
@@ -105,7 +105,7 @@
     }
   },
   {
-    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Taglintelle\r\n\r\nmit Lachsstreifen, frischen Tomaten, Zwiebeln, Parmesan",
+    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Taglintelle mit Lachsstreifen, frischen Tomaten, Zwiebeln, Parmesan",
     "id": 354,
     "name": "Pasta Lachs Natura",
     "order_count": -1,
@@ -120,7 +120,7 @@
     }
   },
   {
-    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle\r\n\r\nmit verschienem Gem\\u00fcse (Broccoli, Aubergine, Zucchini, ...)",
+    "description": "Nudeln nach Wahl: Spaghetti, Maccaroni, Tagliatelle mit verschienem Gemüse (Broccoli, Aubergine, Zucchini, ...)",
     "id": 353,
     "name": "Pasta Verdura",
     "order_count": -1,
@@ -135,7 +135,7 @@
     }
   },
   {
-    "description": "Nudeln mit Fleischf\\u00fcllung\r\n\r\nmit Tomatensauce",
+    "description": "Nudeln mit Fleischfüllung mit Tomatensauce",
     "id": 352,
     "name": "Ravioli Napoli",
     "order_count": -1,
@@ -150,7 +150,7 @@
     }
   },
   {
-    "description": "Nudeln mit Fleischf\\u00fcllung \r\n\r\nmit Fleischsauce",
+    "description": "Nudeln mit Fleischfüllung  mit Fleischsauce",
     "id": 351,
     "name": "Ravioli Bologna",
     "order_count": -1,
@@ -165,7 +165,7 @@
     }
   },
   {
-    "description": "Nudeln mit Fleischf\\u00fcllung\r\n\r\nmit Spinat, Gorgonzola, Sahnesauce, Knoblauch ",
+    "description": "Nudeln mit Fleischfüllung mit Spinat, Gorgonzola, Sahnesauce, Knoblauch ",
     "id": 350,
     "name": "Ravioli Verdi",
     "order_count": -1,
@@ -180,7 +180,7 @@
     }
   },
   {
-    "description": "Nudeln mit Fleischf\\u00fcllung\r\n\r\nmit Sahnesauce",
+    "description": "Nudeln mit Fleischfüllung mit Sahnesauce",
     "id": 349,
     "name": "Ravioli Panna ",
     "order_count": -1,
@@ -195,7 +195,7 @@
     }
   },
   {
-    "description": "Teigwaren aus Kartoffeln\r\n\r\nmit Salmesauce, Pesto",
+    "description": "Teigwaren aus Kartoffeln mit Salmesauce, Pesto",
     "id": 348,
     "name": "Gnocchi mit Sahnepesto",
     "order_count": -1,
@@ -210,7 +210,7 @@
     }
   },
   {
-    "description": "Teigwaren aus Kartoffeln\r\n\r\nmit Tomatensauce , Mozzarella, Basilikum",
+    "description": "Teigwaren aus Kartoffeln mit Tomatensauce , Mozzarella, Basilikum",
     "id": 347,
     "name": "Gnocchi a la Verona",
     "order_count": -1,
@@ -225,7 +225,7 @@
     }
   },
   {
-    "description": "Nudeln mit K\\u00e4se \\u00fcberbacken\r\n\r\nmit Gem\\u00fcse",
+    "description": "Nudeln mit Käse überbacken mit Gemüse",
     "id": 346,
     "name": "Cannelloni Verdura",
     "order_count": -1,
@@ -240,7 +240,7 @@
     }
   },
   {
-    "description": "Frisches Gem\\u00fcse mit K\\u00e4se \\u00fcberbacken\r\n\r\nmit Champignons in Sahnesauce, Fromfl., Vorderschinken, Tomaten, Knoblauch",
+    "description": "Frisches Gemüse mit Käse überbacken mit Champignons in Sahnesauce, Fromfl., Vorderschinken, Tomaten, Knoblauch",
     "id": 345,
     "name": "Funghi speziale",
     "order_count": -1,
@@ -255,7 +255,7 @@
     }
   },
   {
-    "description": "Verschiedenes Gem\\u00fcse mit K\\u00e4se \\u00fcberbacken\r\n\r\n3 verschiedene Nudelarten in Sahnesauce mit K\\u00e4se \\u00fcberbacken",
+    "description": "Verschiedenes Gemüse mit Käse überbacken 3 verschiedene Nudelarten in Sahnesauce mit Käse überbacken",
     "id": 344,
     "name": "Al Forno a la Romana",
     "order_count": -1,
@@ -270,7 +270,7 @@
     }
   },
   {
-    "description": "Kartoffelgerichte mit K\\u00e4se \\u00fcberbacken\r\n\r\nmit Rindfleisch, Paprika, Spinat, Tomatensauce, Knoblauch, \\u00fcberbacken",
+    "description": "Kartoffelgerichte mit Käse überbacken mit Rindfleisch, Paprika, Spinat, Tomatensauce, Knoblauch, überbacken",
     "id": 343,
     "name": "Patata Cesar",
     "order_count": -1,
@@ -285,7 +285,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln\r\n\r\nmit Oliven, Kapern, w\\u00fcrziger Tomatensauce",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln mit Oliven, Kapern, würziger Tomatensauce",
     "id": 342,
     "name": "Scaloppina Pizzaiola",
     "order_count": -1,
@@ -300,7 +300,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln \r\n\r\nmit w\\u00fcrziger Tomatensauce",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln  mit würziger Tomatensauce",
     "id": 341,
     "name": "Scaloppina Involtini",
     "order_count": -1,
@@ -315,7 +315,7 @@
     }
   },
   {
-    "description": "Marsalasauce (Marsala-Lik\\u00f6r) ACHTUNG selbe Bestellnummer wie Pagasius mit Senfsauce",
+    "description": "Marsalasauce (Marsala-Likör) ACHTUNG selbe Bestellnummer wie Pagasius mit Senfsauce",
     "id": 340,
     "name": "Scaloppina a la Marsala",
     "order_count": -1,
@@ -330,7 +330,7 @@
     }
   },
   {
-    "description": "in Sahnesauce, Champignon, Scampis\r\nFischgerichte mit Beilage nach Wahl (Gem\\u00fcse)",
+    "description": "in Sahnesauce, Champignon, Scampis\r\nFischgerichte mit Beilage nach Wahl (Gemüse)",
     "id": 339,
     "name": "Pangasius",
     "order_count": -1,
@@ -345,7 +345,7 @@
     }
   },
   {
-    "description": "Fischgericht mit Beilage nach Wahl (Gem\\u00fcse) ",
+    "description": "Fischgericht mit Beilage nach Wahl (Gemüse) ",
     "id": 338,
     "name": "Pangasius mit Tomatensauce",
     "order_count": -1,
@@ -360,7 +360,7 @@
     }
   },
   {
-    "description": "Fischgerichte mit Beilage nach Wahl (Gem\\u00fcse) ",
+    "description": "Fischgerichte mit Beilage nach Wahl (Gemüse) ",
     "id": 337,
     "name": "Pangasius mit Senfsauce",
     "order_count": -1,
@@ -390,7 +390,7 @@
     }
   },
   {
-    "description": "Oliven, Schafk\\u00e4se, Paprika, gebratene Champignon, Rucola",
+    "description": "Oliven, Schafkäse, Paprika, gebratene Champignon, Rucola",
     "id": 335,
     "name": "Pollo Speziale",
     "order_count": -1,
@@ -420,9 +420,9 @@
     }
   },
   {
-    "description": "mit H\\u00e4hnchen und Peperoni",
+    "description": "mit Hähnchen und Peperoni",
     "id": 333,
-    "name": "Gef\\u00fcllte Pizzabr\\u00f6tchen",
+    "name": "Gefüllte Pizzabrötchen",
     "order_count": -1,
     "order_number": "170",
     "price": "5.5",
@@ -450,7 +450,7 @@
     }
   },
   {
-    "description": "ger\\u00f6stetes Brot mit frischen Tomaten und frischen Paprika",
+    "description": "geröstetes Brot mit frischen Tomaten und frischen Paprika",
     "id": 331,
     "name": "Bruschetta",
     "order_count": -1,
@@ -467,7 +467,7 @@
   {
     "description": "mit Salami",
     "id": 330,
-    "name": "Gef\\u00fcllte Pizzabr\\u00f6tchen",
+    "name": "Gefüllte Pizzabrötchen",
     "order_count": -1,
     "order_number": "171",
     "price": "3.5",
@@ -510,7 +510,7 @@
     }
   },
   {
-    "description": "OHNE Pilze, f\\u00fcr Hille",
+    "description": "OHNE Pilze, für Hille",
     "id": 327,
     "name": "Tofu Szechuan ohne Pilze",
     "order_count": 32,
@@ -525,7 +525,7 @@
     }
   },
   {
-    "description": "Fr\\u00fchlingsrolle, Erdnusspie\\u00dfchen, Huhn-Curry",
+    "description": "Frühlingsrolle, Erdnusspießchen, Huhn-Curry",
     "id": 326,
     "name": "Thai Teller",
     "order_count": 83,
@@ -587,7 +587,7 @@
   {
     "description": "",
     "id": 320,
-    "name": "\\u00dcberbackene Bananen",
+    "name": "Überbackene Bananen",
     "order_count": 5,
     "order_number": "",
     "price": "1.6",
@@ -600,9 +600,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\"",
+    "description": "mit süß-saurer Soße \"Spezial\"",
     "id": 319,
-    "name": "\\u00dcberbackenes Gem\\u00fcse",
+    "name": "Überbackenes Gemüse",
     "order_count": 0,
     "order_number": "27",
     "price": "4.8",
@@ -615,9 +615,9 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 318,
-    "name": "Tofu mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\"",
+    "name": "Tofu mit süß-saurer Soße \"Spezial\"",
     "order_count": 27,
     "order_number": "26",
     "price": "4.8",
@@ -645,7 +645,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 316,
     "name": "Tofu Thai-Curry",
     "order_count": 28,
@@ -660,7 +660,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 315,
     "name": "Tofu Curry",
     "order_count": 11,
@@ -675,7 +675,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 314,
     "name": "Tofu Chop-suey",
     "order_count": 13,
@@ -705,9 +705,9 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 312,
-    "name": "Ente mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\"",
+    "name": "Ente mit süß-saurer Soße \"Spezial\"",
     "order_count": 2,
     "order_number": "22",
     "price": "6.4",
@@ -720,7 +720,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 311,
     "name": "Ente Chop-suey",
     "order_count": 0,
@@ -735,7 +735,7 @@
     }
   },
   {
-    "description": "mit Kokosmilch und Gem\\u00fcse, scharf!",
+    "description": "mit Kokosmilch und Gemüse, scharf!",
     "id": 310,
     "name": "Ente Thai-Curry",
     "order_count": 2,
@@ -750,7 +750,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse, scharf!",
+    "description": "mit verschiedenem Gemüse, scharf!",
     "id": 309,
     "name": "Ente cantonesisch",
     "order_count": 3,
@@ -765,7 +765,7 @@
     }
   },
   {
-    "description": "Fr\\u00fchlingsrolle, Chop-suey, Gem\\u00fcseb\\u00e4llchen, mit s\\u00fc\\u00df-saurer So\\u00dfe",
+    "description": "Frühlingsrolle, Chop-suey, Gemüsebällchen, mit süß-saurer Soße",
     "id": 308,
     "name": "Gemischter Teller vegetarisch",
     "order_count": 4,
@@ -780,7 +780,7 @@
     }
   },
   {
-    "description": "Fr\\u00fchlingsrolle, Chop-suey, H\\u00fchnerfleischb\\u00e4llchen, mit s\\u00fc\\u00df-saurer So\\u00dfe",
+    "description": "Frühlingsrolle, Chop-suey, Hühnerfleischbällchen, mit süß-saurer Soße",
     "id": 307,
     "name": "Gemischter Teller \"Gia Linh\"",
     "order_count": 19,
@@ -795,9 +795,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\" und verschiedenem Gem\\u00fcse",
+    "description": "mit süß-saurer Soße \"Spezial\" und verschiedenem Gemüse",
     "id": 306,
-    "name": "H\\u00fchnerfleisch natur",
+    "name": "Hühnerfleisch natur",
     "order_count": 3,
     "order_number": "A17",
     "price": "4.6",
@@ -810,9 +810,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\" und verschiedenem Gem\\u00fcse",
+    "description": "mit süß-saurer Soße \"Spezial\" und verschiedenem Gemüse",
     "id": 305,
-    "name": "H\\u00fchnerfleisch \\u00fcberbacken",
+    "name": "Hühnerfleisch überbacken",
     "order_count": 0,
     "order_number": "17",
     "price": "4.6",
@@ -827,7 +827,7 @@
   {
     "description": "",
     "id": 304,
-    "name": "H\\u00fchnerfleisch mit Sojakeimen",
+    "name": "Hühnerfleisch mit Sojakeimen",
     "order_count": 0,
     "order_number": "16",
     "price": "4.6",
@@ -840,9 +840,9 @@
     }
   },
   {
-    "description": "mit Kokosmilch und verschiedenem Gem\\u00fcse, scharf!",
+    "description": "mit Kokosmilch und verschiedenem Gemüse, scharf!",
     "id": 303,
-    "name": "H\\u00fchnerfleisch Thai-Curry",
+    "name": "Hühnerfleisch Thai-Curry",
     "order_count": 38,
     "order_number": "A15",
     "price": "4.6",
@@ -855,9 +855,9 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 302,
-    "name": "H\\u00fchnerfleisch Curry",
+    "name": "Hühnerfleisch Curry",
     "order_count": 1,
     "order_number": "15",
     "price": "4.6",
@@ -870,9 +870,9 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 301,
-    "name": "H\\u00fchnerfleisch Chop-suey",
+    "name": "Hühnerfleisch Chop-suey",
     "order_count": 3,
     "order_number": "14",
     "price": "4.8",
@@ -885,7 +885,7 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\" und verschiedenem Gem\\u00fcse",
+    "description": "mit süß-saurer Soße \"Spezial\" und verschiedenem Gemüse",
     "id": 300,
     "name": "Schweinefleisch natur",
     "order_count": 0,
@@ -900,9 +900,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe \"Spezial\" und verschiedenem Gem\\u00fcse",
+    "description": "mit süß-saurer Soße \"Spezial\" und verschiedenem Gemüse",
     "id": 299,
-    "name": "Schweinefleisch \\u00fcberbacken",
+    "name": "Schweinefleisch überbacken",
     "order_count": 2,
     "order_number": "13",
     "price": "4.6",
@@ -930,7 +930,7 @@
     }
   },
   {
-    "description": "mit Kokosmilch und verschiedenem Gem\\u00fcse, scharf!",
+    "description": "mit Kokosmilch und verschiedenem Gemüse, scharf!",
     "id": 297,
     "name": "Schweinefleisch Thai-Curry",
     "order_count": 1,
@@ -945,7 +945,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 296,
     "name": "Schweinefleisch Curry",
     "order_count": 1,
@@ -960,7 +960,7 @@
     }
   },
   {
-    "description": "mit verschiedenem Gem\\u00fcse",
+    "description": "mit verschiedenem Gemüse",
     "id": 295,
     "name": "Schweinefleisch Chop-suey",
     "order_count": 0,
@@ -1020,7 +1020,7 @@
     }
   },
   {
-    "description": "Gebratene Nudeln mit Curry, H\\u00fchnerfleisch, Garnelen, Eiern und Sojakeimen",
+    "description": "Gebratene Nudeln mit Curry, Hühnerfleisch, Garnelen, Eiern und Sojakeimen",
     "id": 291,
     "name": "Bami Goreng Spezial",
     "order_count": 10,
@@ -1035,7 +1035,7 @@
     }
   },
   {
-    "description": "mit H\\u00fchnerfleisch und Sojakeimen",
+    "description": "mit Hühnerfleisch und Sojakeimen",
     "id": 290,
     "name": "Gebratener Reis oder gebratene Nudeln",
     "order_count": 103,
@@ -1080,9 +1080,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe",
+    "description": "mit süß-saurer Soße",
     "id": 287,
-    "name": "H\\u00fchnerfleisch \\u00fcberbacken",
+    "name": "Hühnerfleisch überbacken",
     "order_count": 0,
     "order_number": "6",
     "price": "3.0",
@@ -1095,9 +1095,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe",
+    "description": "mit süß-saurer Soße",
     "id": 286,
-    "name": "Schweinefleisch \\u00fcberbacken",
+    "name": "Schweinefleisch überbacken",
     "order_count": 0,
     "order_number": "4",
     "price": "2.8",
@@ -1110,7 +1110,7 @@
     }
   },
   {
-    "description": "3 St\\u00fcck",
+    "description": "3 Stück",
     "id": 285,
     "name": "Krabbenchips",
     "order_count": 1,
@@ -1125,9 +1125,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe",
+    "description": "mit süß-saurer Soße",
     "id": 284,
-    "name": "Fr\\u00fchlingsrolle mit Fleisch",
+    "name": "Frühlingsrolle mit Fleisch",
     "order_count": 4,
     "order_number": "2",
     "price": "1.1",
@@ -1140,9 +1140,9 @@
     }
   },
   {
-    "description": "mit s\\u00fc\\u00df-saurer So\\u00dfe",
+    "description": "mit süß-saurer Soße",
     "id": 283,
-    "name": "Fr\\u00fchlingsrolle ohne Fleisch",
+    "name": "Frühlingsrolle ohne Fleisch",
     "order_count": 13,
     "order_number": "1",
     "price": "0.9",
@@ -1217,7 +1217,7 @@
   {
     "description": "",
     "id": 277,
-    "name": "Pfeffer-Rahm-So\\u00dfe",
+    "name": "Pfeffer-Rahm-Soße",
     "order_count": 0,
     "order_number": "",
     "price": "0.8",
@@ -1247,7 +1247,7 @@
   {
     "description": "",
     "id": 275,
-    "name": "Schaschlik-So\\u00dfe",
+    "name": "Schaschlik-Soße",
     "order_count": 0,
     "order_number": "",
     "price": "0.4",
@@ -1262,7 +1262,7 @@
   {
     "description": "",
     "id": 274,
-    "name": "Curry-So\\u00dfe",
+    "name": "Curry-Soße",
     "order_count": 0,
     "order_number": "",
     "price": "0.4",
@@ -1277,7 +1277,7 @@
   {
     "description": "",
     "id": 273,
-    "name": "Rahm-So\\u00dfe",
+    "name": "Rahm-Soße",
     "order_count": 0,
     "order_number": "",
     "price": "0.6",
@@ -1292,7 +1292,7 @@
   {
     "description": "",
     "id": 272,
-    "name": "Zigeuner-So\\u00dfe",
+    "name": "Zigeuner-Soße",
     "order_count": 0,
     "order_number": "",
     "price": "0.6",
@@ -1307,7 +1307,7 @@
   {
     "description": "",
     "id": 271,
-    "name": "J\\u00e4ger-So\\u00dfe",
+    "name": "Jäger-Soße",
     "order_count": 0,
     "order_number": "",
     "price": "0.6",
@@ -1365,7 +1365,7 @@
     }
   },
   {
-    "description": "mit Kr\\u00e4uterquark",
+    "description": "mit Kräuterquark",
     "id": 267,
     "name": "Folienkartoffeln",
     "order_count": 0,
@@ -1395,7 +1395,7 @@
     }
   },
   {
-    "description": "10 St\\u00fcck",
+    "description": "10 Stück",
     "id": 265,
     "name": "Kartoffelkroketten",
     "order_count": 0,
@@ -1500,7 +1500,7 @@
     }
   },
   {
-    "description": "mit Apfelmus, 3 St\\u00fcck",
+    "description": "mit Apfelmus, 3 Stück",
     "id": 258,
     "name": "Frische Reibekuchen (Nur Donnerstags)",
     "order_count": 0,
@@ -1517,7 +1517,7 @@
   {
     "description": "",
     "id": 257,
-    "name": "Gem\\u00fcse-Kartoffel-Gratin",
+    "name": "Gemüse-Kartoffel-Gratin",
     "order_count": 0,
     "order_number": "",
     "price": "4.9",
@@ -1532,7 +1532,7 @@
   {
     "description": "",
     "id": 256,
-    "name": "Gem\\u00fcsefrikadelle",
+    "name": "Gemüsefrikadelle",
     "order_count": 0,
     "order_number": "",
     "price": "1.7",
@@ -1562,7 +1562,7 @@
   {
     "description": "",
     "id": 254,
-    "name": "Fr\\u00fchlingsrolle",
+    "name": "Frühlingsrolle",
     "order_count": 0,
     "order_number": "",
     "price": "1.6",
@@ -1652,7 +1652,7 @@
   {
     "description": "",
     "id": 246,
-    "name": "J\\u00e4ger-Wurst",
+    "name": "Jäger-Wurst",
     "order_count": 0,
     "order_number": "",
     "price": "2.8",
@@ -1757,7 +1757,7 @@
   {
     "description": "",
     "id": 239,
-    "name": "1/2 H\\u00e4hnchen",
+    "name": "1/2 Hähnchen",
     "order_count": 0,
     "order_number": "",
     "price": "3.3",
@@ -1772,7 +1772,7 @@
   {
     "description": "",
     "id": 238,
-    "name": "saurerbraten mit Kl\\u00f6\\u00dfen und Rotkohl",
+    "name": "saurerbraten mit Klößen und Rotkohl",
     "order_count": 0,
     "order_number": "",
     "price": "9.0",
@@ -1785,7 +1785,7 @@
     }
   },
   {
-    "description": "t\\u00e4glich frisch",
+    "description": "täglich frisch",
     "id": 236,
     "name": "Gegrillte Haxe",
     "order_count": 1,
@@ -1845,9 +1845,9 @@
     }
   },
   {
-    "description": "Dressing: Joghurt, Kr\\u00e4uter, \\u00d6l, Essig, Cocktail",
+    "description": "Dressing: Joghurt, Kräuter, Öl, Essig, Cocktail",
     "id": 232,
-    "name": "Italienische Salatsch\\u00fcssel",
+    "name": "Italienische Salatschüssel",
     "order_count": 0,
     "order_number": "",
     "price": "4.1",
@@ -1875,9 +1875,9 @@
     }
   },
   {
-    "description": "Champignons, Zwiebeln, K\\u00e4se \\u00fcberbacken",
+    "description": "Champignons, Zwiebeln, Käse überbacken",
     "id": 230,
-    "name": "Z\\u00fcricher-Schnitzel",
+    "name": "Züricher-Schnitzel",
     "order_count": 0,
     "order_number": "",
     "price": "5.4",
@@ -1922,7 +1922,7 @@
   {
     "description": "",
     "id": 227,
-    "name": "J\\u00e4ger-Schnitzel",
+    "name": "Jäger-Schnitzel",
     "order_count": 0,
     "order_number": "",
     "price": "4.6",
@@ -1935,7 +1935,7 @@
     }
   },
   {
-    "description": "Schinken, K\\u00e4se, Rahm \\u00fcberbacken",
+    "description": "Schinken, Käse, Rahm überbacken",
     "id": 226,
     "name": "Prager-Schnitzel",
     "order_count": 0,
@@ -1980,7 +1980,7 @@
     }
   },
   {
-    "description": "Ananas, Pfirsich, Rahm \\u00fcberbacken",
+    "description": "Ananas, Pfirsich, Rahm überbacken",
     "id": 223,
     "name": "Kalifornisches Schnitzel-Wunder",
     "order_count": 0,
@@ -2070,7 +2070,7 @@
     }
   },
   {
-    "description": "Windbeutel mit Cremef\\u00fcllung",
+    "description": "Windbeutel mit Cremefüllung",
     "id": 212,
     "name": "Profiterol",
     "order_count": 1,
@@ -2115,9 +2115,9 @@
     }
   },
   {
-    "description": "Spinat, Schafsk\\u00e4se",
+    "description": "Spinat, Schafskäse",
     "id": 209,
-    "name": "Gef\\u00fcllte Pizzabr\\u00f6tchen (6 St\\u00fcck)",
+    "name": "Gefüllte Pizzabrötchen (6 Stück)",
     "order_count": 26,
     "order_number": "169",
     "price": "4.5",
@@ -2130,9 +2130,9 @@
     }
   },
   {
-    "description": "Vorderschinken, K\\u00e4se",
+    "description": "Vorderschinken, Käse",
     "id": 208,
-    "name": "Gef\\u00fcllte Pizzabr\\u00f6tchen (6 St\\u00fcck)",
+    "name": "Gefüllte Pizzabrötchen (6 Stück)",
     "order_count": 6,
     "order_number": "168",
     "price": "3.5",
@@ -2145,9 +2145,9 @@
     }
   },
   {
-    "description": "Thunfisch, K\\u00e4se",
+    "description": "Thunfisch, Käse",
     "id": 207,
-    "name": "Gef\\u00fcllte Pizzabr\\u00f6tchen (6 St\\u00fcck)",
+    "name": "Gefüllte Pizzabrötchen (6 Stück)",
     "order_count": 1,
     "order_number": "167",
     "price": "3.5",
@@ -2160,9 +2160,9 @@
     }
   },
   {
-    "description": "mit Kr\\u00e4uterbutter",
+    "description": "mit Kräuterbutter",
     "id": 206,
-    "name": "Pizzabr\\u00f6tchen (6 St\\u00fcck)",
+    "name": "Pizzabrötchen (6 Stück)",
     "order_count": 55,
     "order_number": "166",
     "price": "1.9",
@@ -2175,7 +2175,7 @@
     }
   },
   {
-    "description": "mit Thunfisch, Mais, Zwiebeln, Schafsk\\u00e4se, Joghurtdressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Thunfisch, Mais, Zwiebeln, Schafskäse, Joghurtdressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 205,
     "name": "Insalata Esmeralda",
     "order_count": 3,
@@ -2190,7 +2190,7 @@
     }
   },
   {
-    "description": "mit Rucola, Parmesank\\u00e4se, Waln\\u00fcsse, Balsamic\\u00f6ssig, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Rucola, Parmesankäse, Walnüsse, Balsamicössig, 4 Pizzabrötchen und Kräuterbutter",
     "id": 204,
     "name": "Insalata Rucola",
     "order_count": 11,
@@ -2205,7 +2205,7 @@
     }
   },
   {
-    "description": "mit Rucola, H\\u00e4hnchenbrustfilet, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Rucola, Hähnchenbrustfilet, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 203,
     "name": "Insalata Pollo",
     "order_count": 2,
@@ -2220,7 +2220,7 @@
     }
   },
   {
-    "description": "mit Tomatenscheiben, Mozzarella, Basilikum, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Tomatenscheiben, Mozzarella, Basilikum, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 202,
     "name": "Insalata Pomodoro",
     "order_count": 5,
@@ -2235,7 +2235,7 @@
     }
   },
   {
-    "description": "mit Karotten, Oliven, Mais, Zwiebeln, Mozzarella, Ei, Paprika, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Karotten, Oliven, Mais, Zwiebeln, Mozzarella, Ei, Paprika, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 201,
     "name": "Insalata Molino",
     "order_count": 66,
@@ -2250,7 +2250,7 @@
     }
   },
   {
-    "description": "mit verschiedenen Gem\\u00fcsesorten, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit verschiedenen Gemüsesorten, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 200,
     "name": "Insalata Verdura",
     "order_count": 0,
@@ -2265,7 +2265,7 @@
     }
   },
   {
-    "description": "mit Meeresfr\\u00fcchten, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Meeresfrüchten, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 199,
     "name": "Insalata Riviera",
     "order_count": 0,
@@ -2280,7 +2280,7 @@
     }
   },
   {
-    "description": "mit Thunfisch, Krabben, Zwiebeln, Cocktaildressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Thunfisch, Krabben, Zwiebeln, Cocktaildressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 198,
     "name": "Insalata Marinara",
     "order_count": 0,
@@ -2295,7 +2295,7 @@
     }
   },
   {
-    "description": "mit Ei, Champignons, Zwiebeln, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Ei, Champignons, Zwiebeln, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 197,
     "name": "Insalata Forestale",
     "order_count": 12,
@@ -2310,7 +2310,7 @@
     }
   },
   {
-    "description": "mit Thunfisch, Formfl. Vorderschinken, K\\u00e4se, Joghurtdressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Thunfisch, Formfl. Vorderschinken, Käse, Joghurtdressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 196,
     "name": "Insalata Capricciosa",
     "order_count": 0,
@@ -2325,7 +2325,7 @@
     }
   },
   {
-    "description": "mit Thunfisch, Ei, Joghurtdressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Thunfisch, Ei, Joghurtdressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 195,
     "name": "Insalata Nicoise",
     "order_count": 1,
@@ -2340,7 +2340,7 @@
     }
   },
   {
-    "description": "mit Thunfisch, Zwiebeln, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Thunfisch, Zwiebeln, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 194,
     "name": "Insalata Tonno",
     "order_count": 7,
@@ -2355,7 +2355,7 @@
     }
   },
   {
-    "description": "mit Formfl. Vorderschinken, Ei, Thunfisch, Cocktaildressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Formfl. Vorderschinken, Ei, Thunfisch, Cocktaildressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 193,
     "name": "Insalata Pasticciata",
     "order_count": 2,
@@ -2370,7 +2370,7 @@
     }
   },
   {
-    "description": "mit Ananas, Formfl. Vorderschinken, K\\u00e4se, Cocktaildressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Ananas, Formfl. Vorderschinken, Käse, Cocktaildressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 192,
     "name": "Insalata Hawaii",
     "order_count": 0,
@@ -2385,7 +2385,7 @@
     }
   },
   {
-    "description": "mit 4 K\\u00e4sesorten, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit 4 Käsesorten, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 191,
     "name": "Insalata 4 Formaggi",
     "order_count": 2,
@@ -2400,7 +2400,7 @@
     }
   },
   {
-    "description": "mit K\\u00e4se, Joghurtdressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Käse, Joghurtdressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 190,
     "name": "Insalata Parmigiana",
     "order_count": 0,
@@ -2415,7 +2415,7 @@
     }
   },
   {
-    "description": "mit Oliven, Zwiebeln, Balsamic\\u00f6ssig, Oliven\\u00f6l, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Oliven, Zwiebeln, Balsamicössig, Olivenöl, 4 Pizzabrötchen und Kräuterbutter",
     "id": 189,
     "name": "Insalata Prima Vera",
     "order_count": 7,
@@ -2430,7 +2430,7 @@
     }
   },
   {
-    "description": "mit Tomaten, Gurken, Joghurtdressing, 4 Pizzabr\\u00f6tchen und Kr\\u00e4uterbutter",
+    "description": "mit Tomaten, Gurken, Joghurtdressing, 4 Pizzabrötchen und Kräuterbutter",
     "id": 188,
     "name": "Insalata Mista",
     "order_count": 2,
@@ -2475,7 +2475,7 @@
     }
   },
   {
-    "description": "mit M\\u00f6hren und Joghurtdressing",
+    "description": "mit Möhren und Joghurtdressing",
     "id": 185,
     "name": "Karottensalat",
     "order_count": 0,
@@ -2505,7 +2505,7 @@
     }
   },
   {
-    "description": "mit gr\\u00fcnem Salat und Joghurtdressing",
+    "description": "mit grünem Salat und Joghurtdressing",
     "id": 183,
     "name": "Insalata Verde",
     "order_count": 0,
@@ -2535,7 +2535,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Zwiebeln und Wei\\u00dfweinsauce",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Zwiebeln und Weißweinsauce",
     "id": 181,
     "name": "Scaloppina Cipolatta",
     "order_count": 0,
@@ -2625,7 +2625,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Sahnesauce und Gorgonzolak\\u00e4se",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Sahnesauce und Gorgonzolakäse",
     "id": 175,
     "name": "Scaloppina Gorgonzola",
     "order_count": 12,
@@ -2640,7 +2640,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Ananas, Formfl. Vorderschinken, K\\u00e4se und Sahnesauce",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Ananas, Formfl. Vorderschinken, Käse und Sahnesauce",
     "id": 174,
     "name": "Scaloppina Hawaii",
     "order_count": 0,
@@ -2685,7 +2685,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit gr\\u00fcnem Pfeffer",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit grünem Pfeffer",
     "id": 171,
     "name": "Scaloppina al Pepe Verde",
     "order_count": 0,
@@ -2700,7 +2700,7 @@
     }
   },
   {
-    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Sahnesauce und Currygew\\u00fcrz",
+    "description": "3 kleine Schnitzel vom Schwein mit Pommes Frites, Kroketten oder Nudeln; mit Sahnesauce und Currygewürz",
     "id": 170,
     "name": "Scaloppina al Curry",
     "order_count": 0,
@@ -2807,7 +2807,7 @@
   {
     "description": "in Sahnesauce, Tomaten, Knoblauch",
     "id": 163,
-    "name": "verschiedene Gem\\u00fcsesorten",
+    "name": "verschiedene Gemüsesorten",
     "order_count": 0,
     "order_number": "104",
     "price": "7.0",
@@ -2925,7 +2925,7 @@
     }
   },
   {
-    "description": "mit Gem\\u00fcse",
+    "description": "mit Gemüse",
     "id": 155,
     "name": "Maccheroni Verdura",
     "order_count": 1,
@@ -2970,7 +2970,7 @@
     }
   },
   {
-    "description": "Nudelrollen mit Fleischf\\u00fcllung und Spinat, Knoblauch",
+    "description": "Nudelrollen mit Fleischfüllung und Spinat, Knoblauch",
     "id": 152,
     "name": "Canelloni Speziale",
     "order_count": 0,
@@ -2985,7 +2985,7 @@
     }
   },
   {
-    "description": "Nudelrollen mit Fleischf\\u00fcllung",
+    "description": "Nudelrollen mit Fleischfüllung",
     "id": 151,
     "name": "Cannelloni",
     "order_count": 1,
@@ -3030,7 +3030,7 @@
     }
   },
   {
-    "description": "mit 4 K\\u00e4sesorten",
+    "description": "mit 4 Käsesorten",
     "id": 148,
     "name": "Tagliatelle 4 Formaggi",
     "order_count": 0,
@@ -3195,7 +3195,7 @@
     }
   },
   {
-    "description": "Meeresfr\\u00fcchte, Tomatensauce, Knoblauch",
+    "description": "Meeresfrüchte, Tomatensauce, Knoblauch",
     "id": 137,
     "name": "Pasta Frutti di Mare",
     "order_count": 0,
@@ -3270,7 +3270,7 @@
     }
   },
   {
-    "description": "H\\u00e4hnchenbrustfilet, Champignons, Tomatensauce,",
+    "description": "Hähnchenbrustfilet, Champignons, Tomatensauce,",
     "id": 132,
     "name": "Pasta Casa Nova",
     "order_count": 0,
@@ -3362,7 +3362,7 @@
   {
     "description": "Paprika, Champignons, Erbsen, Tomaten-Sahnesauce",
     "id": 126,
-    "name": "Pasta P\\u00e4sana",
+    "name": "Pasta Päsana",
     "order_count": 0,
     "order_number": "70",
     "price": "7.5",
@@ -3540,7 +3540,7 @@
     }
   },
   {
-    "description": "Gorgonzolak\\u00e4se, Sahnesauce",
+    "description": "Gorgonzolakäse, Sahnesauce",
     "id": 114,
     "name": "Pasta Gorgonzola",
     "order_count": 0,
@@ -3600,7 +3600,7 @@
     }
   },
   {
-    "description": "Knoblauch, \\u00f6l, scarf",
+    "description": "Knoblauch, öl, scarf",
     "id": 110,
     "name": "Pasta Aglio e Olio",
     "order_count": 0,
@@ -3630,7 +3630,7 @@
     }
   },
   {
-    "description": "gef\\u00fcllte Pizza, Zutaten nach Wahl",
+    "description": "gefüllte Pizza, Zutaten nach Wahl",
     "id": 108,
     "name": "Pizza Calzone klein",
     "order_count": 0,
@@ -3645,7 +3645,7 @@
     }
   },
   {
-    "description": "gef\\u00fcllte Pizza, Zutaten nach Wahl",
+    "description": "gefüllte Pizza, Zutaten nach Wahl",
     "id": 107,
     "name": "Pizza Calzone",
     "order_count": 0,
@@ -3675,7 +3675,7 @@
     }
   },
   {
-    "description": "(f\\u00fcr 2 Personen) Thunfisch, Champignons, Formfl. Voderschinken, Salami",
+    "description": "(für 2 Personen) Thunfisch, Champignons, Formfl. Voderschinken, Salami",
     "id": 105,
     "name": "Pizza Famiglia",
     "order_count": 0,
@@ -3720,7 +3720,7 @@
     }
   },
   {
-    "description": "H\\u00e4nchenbrustfilet",
+    "description": "Hänchenbrustfilet",
     "id": 102,
     "name": "Pizza Pollo klein",
     "order_count": 0,
@@ -3735,7 +3735,7 @@
     }
   },
   {
-    "description": "H\\u00e4nchenbrustfilet",
+    "description": "Hänchenbrustfilet",
     "id": 101,
     "name": "Pizza Pollo",
     "order_count": 2,
@@ -3750,7 +3750,7 @@
     }
   },
   {
-    "description": "Rucola, Parmaschinken, Parmesank\\u00e4se",
+    "description": "Rucola, Parmaschinken, Parmesankäse",
     "id": 100,
     "name": "Pizza Rucola klein",
     "order_count": 1,
@@ -3765,7 +3765,7 @@
     }
   },
   {
-    "description": "Rucola, Parmaschinken, Parmesank\\u00e4se",
+    "description": "Rucola, Parmaschinken, Parmesankäse",
     "id": 99,
     "name": "Pizza Rucola",
     "order_count": 0,
@@ -3810,7 +3810,7 @@
     }
   },
   {
-    "description": "Gem\\u00fcse",
+    "description": "Gemüse",
     "id": 96,
     "name": "Pizza Verdura klein",
     "order_count": 0,
@@ -3825,7 +3825,7 @@
     }
   },
   {
-    "description": "Gem\\u00fcse",
+    "description": "Gemüse",
     "id": 95,
     "name": "Pizza Verdura",
     "order_count": 0,
@@ -4260,7 +4260,7 @@
     }
   },
   {
-    "description": "4 verschiedene K\\u00e4sesorten",
+    "description": "4 verschiedene Käsesorten",
     "id": 66,
     "name": "Pizza Quattro-Formaggi klein",
     "order_count": 11,
@@ -4275,7 +4275,7 @@
     }
   },
   {
-    "description": "4 verschiedene K\\u00e4sesorten",
+    "description": "4 verschiedene Käsesorten",
     "id": 65,
     "name": "Pizza Quattro-Formaggi",
     "order_count": 2,
@@ -4290,7 +4290,7 @@
     }
   },
   {
-    "description": "Mozzarella, frische Tomaten, Basilikum, Oliven\\u00f6l",
+    "description": "Mozzarella, frische Tomaten, Basilikum, Olivenöl",
     "id": 64,
     "name": "Pizza Don klein",
     "order_count": 4,
@@ -4305,7 +4305,7 @@
     }
   },
   {
-    "description": "Mozzarella, frische Tomaten, Basilikum, Oliven\\u00f6l",
+    "description": "Mozzarella, frische Tomaten, Basilikum, Olivenöl",
     "id": 63,
     "name": "Pizza Don",
     "order_count": 14,
@@ -4470,7 +4470,7 @@
     }
   },
   {
-    "description": "Spinat, Zwiebeln, Schafsk\\u00e4se, Knoblauch",
+    "description": "Spinat, Zwiebeln, Schafskäse, Knoblauch",
     "id": 52,
     "name": "Pizza Montanara klein",
     "order_count": 21,
@@ -4485,7 +4485,7 @@
     }
   },
   {
-    "description": "Spinat, Zwiebeln, Schafsk\\u00e4se, Knoblauch",
+    "description": "Spinat, Zwiebeln, Schafskäse, Knoblauch",
     "id": 51,
     "name": "Pizza Montanara",
     "order_count": 50,
@@ -4920,7 +4920,7 @@
     }
   },
   {
-    "description": "Tomatensauce, K\\u00e4se, Oregano",
+    "description": "Tomatensauce, Käse, Oregano",
     "id": 22,
     "name": "Pizza Margharita klein",
     "order_count": 10,
@@ -4935,7 +4935,7 @@
     }
   },
   {
-    "description": "Tomatensauce, K\\u00e4se, Oregano",
+    "description": "Tomatensauce, Käse, Oregano",
     "id": 21,
     "name": "Pizza Margharita",
     "order_count": 20,
@@ -5040,7 +5040,7 @@
     }
   },
   {
-    "description": "Thunfisch, Mais, Zwiebeln, Schafsk\\u00e4se",
+    "description": "Thunfisch, Mais, Zwiebeln, Schafskäse",
     "id": 14,
     "name": "Pizza Esmeralda klein",
     "order_count": 11,
@@ -5055,7 +5055,7 @@
     }
   },
   {
-    "description": "Thunfisch, Mais, Zwiebeln, Schafsk\\u00e4se",
+    "description": "Thunfisch, Mais, Zwiebeln, Schafskäse",
     "id": 13,
     "name": "Pizza Esmeralda",
     "order_count": 17,
@@ -5070,7 +5070,7 @@
     }
   },
   {
-    "description": "Meeresfr\\u00fcchte, Knoblauch",
+    "description": "Meeresfrüchte, Knoblauch",
     "id": 12,
     "name": "Pizza Frutti di Mare klein",
     "order_count": 0,
@@ -5085,7 +5085,7 @@
     }
   },
   {
-    "description": "Meeresfr\\u00fcchte, Knoblauch",
+    "description": "Meeresfrüchte, Knoblauch",
     "id": 11,
     "name": "Pizza Frutti di Mare",
     "order_count": 0,
