@@ -88,8 +88,8 @@ Schemas.Dish = new SimpleSchema({
 
 share.Dishes.attachSchema(Schemas.Dish);
 
-share.Orders = new Meteor.Collection "orders"
-Schemas.Order = new SimpleSchema({
+share.FoodRuns = new Meteor.Collection "food_runs"
+Schemas.FoodRun = new SimpleSchema({
   organizer: {
     type: Schemas.User,
     label: "Organizer",
@@ -102,7 +102,10 @@ Schemas.Order = new SimpleSchema({
   },
   date: {
     type: Date,
-    label: "Order date",
+    label: "FoodRun date",
+  },
+  order_item: {
+    type: [Schemas.OrderItem]
   }
 })
 share.Orders.attachSchema(Schemas.Order);
