@@ -10,6 +10,10 @@ Router.map ->
   @route "pleaselogin",
     path: "/"
 
+  # if no foodrun is started, let user choose one
+  @route "takeaway",
+    path: "/takeaway"
+
   # if a foodrun is started, the menu of the chosen takeaway is shown.
   @route "foodrun",
     path: "/foodrun/:id"
