@@ -26,8 +26,7 @@ Schemas.User = new SimpleSchema({
 })
 Meteor.users.attachSchema(Schemas.User);
 
-
-Schemas.Menu = new SimpleSchema({
+Schemas.Takeaway = new SimpleSchema({
   name: {
     type: String,
     label: "Title",
@@ -35,13 +34,13 @@ Schemas.Menu = new SimpleSchema({
   },
   description: {
     type: String,
-    label: "Beschreibung",
+    label: "Description",
     optional: true,
     max: 200
   },
   phone: {
     type: String,
-    label: "Telefon",
+    label: "Phone Number",
     max: 200
   },
   id: {
@@ -51,7 +50,6 @@ Schemas.Menu = new SimpleSchema({
   }
 })
 
-
 share.Dishes = new Meteor.Collection "dishes"
 Schemas.Dish = new SimpleSchema({
   name: {
@@ -59,30 +57,30 @@ Schemas.Dish = new SimpleSchema({
     label: "Title",
     max: 200
   },
-  menu: {
-    type: Schemas.Menu,
-    label: "Lieferant",
+  takeaway: {
+    type: Schemas.Takeaway,
+    label: "Takeaway",
     max: 200
   },
   order_count: {
     type: Number,
-    label: "Bestellanzahl",
+    label: "Order Count",
     max: 200
   },
   order_number: {
     type: String,
-    label: "Bestellnummer",
+    label: "Order Number",
     optional: true,
     max: 200
   },
   price: {
     type: String,
-    label: "Preis",
+    label: "Price",
     max: 200
   },
   description: {
     type: String,
-    label: "Beschreibung",
+    label: "Description",
     optional: true,
     max: 200
   }
@@ -90,42 +88,40 @@ Schemas.Dish = new SimpleSchema({
 
 share.Dishes.attachSchema(Schemas.Dish);
 
-
 share.Orders = new Meteor.Collection "orders"
 Schemas.Order = new SimpleSchema({
   order_master: {
     type: Schemas.User,
-    label: "Haupt-Besteller",
+    label: "Organizer",
     max: 200
   },
-  delivery: {
+  takeaway: {
     type: String,
-    label: "Lieferant",
+    label: "Takeaway",
     max: 200
   },
   date: {
     type: Date,
-    label: "Bestelldatum",
+    label: "Order date",
   }
 })
 share.Orders.attachSchema(Schemas.Order);
-
 
 share.OrderItems = new Meteor.Collection "order_items"
 Schemas.OrderItem = new SimpleSchema({
   user: {
     type: Schemas.User,
-    label: "Besteller",
+    label: "Participant",
     max: 200
   },
   dish: {
     type: Schemas.Dish,
-    label: "Gericht",
+    label: "Dish",
     max: 200
   },
   order: {
     type: Schemas.Order,
-    label: "Bestellung",
+    label: "Order",
   }
 })
 share.OrderItems.attachSchema(Schemas.OrderItem);
