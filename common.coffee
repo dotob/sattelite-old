@@ -108,7 +108,7 @@ Schemas.FoodRun = new SimpleSchema({
     type: [Schemas.OrderItem]
   }
 })
-share.Orders.attachSchema(Schemas.Order);
+share.FoodRuns.attachSchema(Schemas.FoodRun);
 
 share.OrderItems = new Meteor.Collection "order_items"
 Schemas.OrderItem = new SimpleSchema({

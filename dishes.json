@@ -6,7 +6,7 @@
     "order_count": -1,
     "order_number": "38",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -21,7 +21,7 @@
     "order_count": -1,
     "order_number": "52.1",
     "price": "9.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -36,7 +36,7 @@
     "order_count": -1,
     "order_number": "53.2",
     "price": "8.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -51,7 +51,7 @@
     "order_count": -1,
     "order_number": "53.2",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -66,7 +66,7 @@
     "order_count": -1,
     "order_number": "54.1",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -81,7 +81,7 @@
     "order_count": -1,
     "order_number": "79.4",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -96,7 +96,7 @@
     "order_count": -1,
     "order_number": "79.5",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -111,7 +111,7 @@
     "order_count": -1,
     "order_number": "79.6",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -126,7 +126,7 @@
     "order_count": -1,
     "order_number": "79.5",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -141,7 +141,7 @@
     "order_count": -1,
     "order_number": "88.1",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -156,7 +156,7 @@
     "order_count": -1,
     "order_number": "88.2",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -171,7 +171,7 @@
     "order_count": -1,
     "order_number": "88.3",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -186,7 +186,7 @@
     "order_count": -1,
     "order_number": "88.4",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -201,7 +201,7 @@
     "order_count": -1,
     "order_number": "88.6",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -216,7 +216,7 @@
     "order_count": -1,
     "order_number": "88.5",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -231,7 +231,7 @@
     "order_count": -1,
     "order_number": "96.1",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -246,7 +246,7 @@
     "order_count": -1,
     "order_number": "105",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -261,7 +261,7 @@
     "order_count": -1,
     "order_number": "105.1",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -276,7 +276,7 @@
     "order_count": -1,
     "order_number": "110.1",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -291,7 +291,7 @@
     "order_count": -1,
     "order_number": "123.2",
     "price": "9.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -306,7 +306,7 @@
     "order_count": -1,
     "order_number": "123.3",
     "price": "9.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -321,7 +321,7 @@
     "order_count": -1,
     "order_number": "123.4",
     "price": "11.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -336,7 +336,7 @@
     "order_count": -1,
     "order_number": "123.6",
     "price": "12.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -351,7 +351,7 @@
     "order_count": -1,
     "order_number": "123.5",
     "price": "11.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -366,7 +366,7 @@
     "order_count": -1,
     "order_number": "123.4",
     "price": "11.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -381,7 +381,7 @@
     "order_count": -1,
     "order_number": "150",
     "price": "8.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -396,7 +396,7 @@
     "order_count": -1,
     "order_number": "150.1",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -411,7 +411,7 @@
     "order_count": -1,
     "order_number": "150.2",
     "price": "9.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -426,7 +426,7 @@
     "order_count": -1,
     "order_number": "170",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -441,7 +441,7 @@
     "order_count": -1,
     "order_number": "173",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -456,7 +456,7 @@
     "order_count": -1,
     "order_number": "172",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -471,7 +471,7 @@
     "order_count": -1,
     "order_number": "171",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -486,7 +486,7 @@
     "order_count": -1,
     "order_number": "",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -501,7 +501,7 @@
     "order_count": -1,
     "order_number": "",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -516,7 +516,7 @@
     "order_count": 32,
     "order_number": "",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -531,7 +531,7 @@
     "order_count": 83,
     "order_number": "999",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -546,7 +546,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "0.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -561,7 +561,7 @@
     "order_count": 8,
     "order_number": "",
     "price": "4.5",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -576,7 +576,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.0",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -591,7 +591,7 @@
     "order_count": 5,
     "order_number": "",
     "price": "1.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -606,7 +606,7 @@
     "order_count": 0,
     "order_number": "27",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -621,7 +621,7 @@
     "order_count": 27,
     "order_number": "26",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -636,7 +636,7 @@
     "order_count": 1,
     "order_number": "25",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -651,7 +651,7 @@
     "order_count": 28,
     "order_number": "A24",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -666,7 +666,7 @@
     "order_count": 11,
     "order_number": "24",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -681,7 +681,7 @@
     "order_count": 13,
     "order_number": "23",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -696,7 +696,7 @@
     "order_count": 0,
     "order_number": "A22",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -711,7 +711,7 @@
     "order_count": 2,
     "order_number": "22",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -726,7 +726,7 @@
     "order_count": 0,
     "order_number": "21",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -741,7 +741,7 @@
     "order_count": 2,
     "order_number": "A20",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -756,7 +756,7 @@
     "order_count": 3,
     "order_number": "20",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -771,7 +771,7 @@
     "order_count": 4,
     "order_number": "19",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -786,7 +786,7 @@
     "order_count": 19,
     "order_number": "18",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -801,7 +801,7 @@
     "order_count": 3,
     "order_number": "A17",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -816,7 +816,7 @@
     "order_count": 0,
     "order_number": "17",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -831,7 +831,7 @@
     "order_count": 0,
     "order_number": "16",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -846,7 +846,7 @@
     "order_count": 38,
     "order_number": "A15",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -861,7 +861,7 @@
     "order_count": 1,
     "order_number": "15",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -876,7 +876,7 @@
     "order_count": 3,
     "order_number": "14",
     "price": "4.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -891,7 +891,7 @@
     "order_count": 0,
     "order_number": "A13",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -906,7 +906,7 @@
     "order_count": 2,
     "order_number": "13",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -921,7 +921,7 @@
     "order_count": 0,
     "order_number": "12",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -936,7 +936,7 @@
     "order_count": 1,
     "order_number": "A11",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -951,7 +951,7 @@
     "order_count": 1,
     "order_number": "11",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -966,7 +966,7 @@
     "order_count": 0,
     "order_number": "10",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -981,7 +981,7 @@
     "order_count": 0,
     "order_number": "D9",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -996,7 +996,7 @@
     "order_count": 6,
     "order_number": "C9",
     "price": "6.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1011,7 +1011,7 @@
     "order_count": 1,
     "order_number": "B9",
     "price": "5.2",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1026,7 +1026,7 @@
     "order_count": 10,
     "order_number": "A9",
     "price": "5.2",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1041,7 +1041,7 @@
     "order_count": 103,
     "order_number": "9",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1056,7 +1056,7 @@
     "order_count": 6,
     "order_number": "8",
     "price": "4.4",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1071,7 +1071,7 @@
     "order_count": 3,
     "order_number": "7",
     "price": "1.1",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1086,7 +1086,7 @@
     "order_count": 0,
     "order_number": "6",
     "price": "3.0",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1101,7 +1101,7 @@
     "order_count": 0,
     "order_number": "4",
     "price": "2.8",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1116,7 +1116,7 @@
     "order_count": 1,
     "order_number": "3",
     "price": "1.2",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1131,7 +1131,7 @@
     "order_count": 4,
     "order_number": "2",
     "price": "1.1",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1146,7 +1146,7 @@
     "order_count": 13,
     "order_number": "1",
     "price": "0.9",
-    "menu": {
+    "takeaway": {
       "description": "China-Imbiss",
       "has_numbers": true,
       "id": 3,
@@ -1161,7 +1161,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1176,7 +1176,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.5",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1191,7 +1191,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.2",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1206,7 +1206,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1221,7 +1221,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1236,7 +1236,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1251,7 +1251,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1266,7 +1266,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1281,7 +1281,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1296,7 +1296,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1311,7 +1311,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "0.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1326,7 +1326,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1341,7 +1341,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "1.1",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1356,7 +1356,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.2",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1371,7 +1371,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1386,7 +1386,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.1",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1401,7 +1401,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1416,7 +1416,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1431,7 +1431,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.2",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1446,7 +1446,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1461,7 +1461,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.5",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1476,7 +1476,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.2",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1491,7 +1491,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "3.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1506,7 +1506,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "3.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1521,7 +1521,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.9",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1536,7 +1536,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.7",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1551,7 +1551,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.7",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1566,7 +1566,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1581,7 +1581,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "3.7",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1596,7 +1596,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.3",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1611,7 +1611,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.3",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1626,7 +1626,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.1",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1641,7 +1641,7 @@
     "order_count": 3,
     "order_number": "",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1656,7 +1656,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1671,7 +1671,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1686,7 +1686,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.8",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1701,7 +1701,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1716,7 +1716,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1731,7 +1731,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.9",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1746,7 +1746,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.7",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1761,7 +1761,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "3.3",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1776,7 +1776,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "9.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1791,7 +1791,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "3.95",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1806,7 +1806,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "3.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1821,7 +1821,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.0",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1836,7 +1836,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1851,7 +1851,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.1",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1866,7 +1866,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "3.9",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1881,7 +1881,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "5.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1896,7 +1896,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "5.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1911,7 +1911,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1926,7 +1926,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1941,7 +1941,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "5.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1956,7 +1956,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "5.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1971,7 +1971,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.6",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -1986,7 +1986,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "5.4",
-    "menu": {
+    "takeaway": {
       "description": "Schnellimbiss",
       "has_numbers": false,
       "id": 2,
@@ -2001,7 +2001,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "1.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2016,7 +2016,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "2.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2031,7 +2031,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "2.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2046,7 +2046,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2061,7 +2061,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "2.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2076,7 +2076,7 @@
     "order_count": 1,
     "order_number": "",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2091,7 +2091,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2106,7 +2106,7 @@
     "order_count": 0,
     "order_number": "",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2121,7 +2121,7 @@
     "order_count": 26,
     "order_number": "169",
     "price": "4.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2136,7 +2136,7 @@
     "order_count": 6,
     "order_number": "168",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2151,7 +2151,7 @@
     "order_count": 1,
     "order_number": "167",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2166,7 +2166,7 @@
     "order_count": 55,
     "order_number": "166",
     "price": "1.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2181,7 +2181,7 @@
     "order_count": 3,
     "order_number": "147",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2196,7 +2196,7 @@
     "order_count": 11,
     "order_number": "146",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2211,7 +2211,7 @@
     "order_count": 2,
     "order_number": "145",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2226,7 +2226,7 @@
     "order_count": 5,
     "order_number": "144",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2241,7 +2241,7 @@
     "order_count": 66,
     "order_number": "143",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2256,7 +2256,7 @@
     "order_count": 0,
     "order_number": "142",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2271,7 +2271,7 @@
     "order_count": 0,
     "order_number": "141",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2286,7 +2286,7 @@
     "order_count": 0,
     "order_number": "140",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2301,7 +2301,7 @@
     "order_count": 12,
     "order_number": "139",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2316,7 +2316,7 @@
     "order_count": 0,
     "order_number": "138",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2331,7 +2331,7 @@
     "order_count": 1,
     "order_number": "137",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2346,7 +2346,7 @@
     "order_count": 7,
     "order_number": "136",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2361,7 +2361,7 @@
     "order_count": 2,
     "order_number": "135",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2376,7 +2376,7 @@
     "order_count": 0,
     "order_number": "134",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2391,7 +2391,7 @@
     "order_count": 2,
     "order_number": "132",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2406,7 +2406,7 @@
     "order_count": 0,
     "order_number": "131",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2421,7 +2421,7 @@
     "order_count": 7,
     "order_number": "130,",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2436,7 +2436,7 @@
     "order_count": 2,
     "order_number": "129",
     "price": "4.1",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2451,7 +2451,7 @@
     "order_count": 28,
     "order_number": "128",
     "price": "2.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2466,7 +2466,7 @@
     "order_count": 18,
     "order_number": "127",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2481,7 +2481,7 @@
     "order_count": 0,
     "order_number": "126",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2496,7 +2496,7 @@
     "order_count": 0,
     "order_number": "125",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2511,7 +2511,7 @@
     "order_count": 0,
     "order_number": "124",
     "price": "3.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2526,7 +2526,7 @@
     "order_count": 0,
     "order_number": "123",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2541,7 +2541,7 @@
     "order_count": 0,
     "order_number": "122",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2556,7 +2556,7 @@
     "order_count": 0,
     "order_number": "121",
     "price": "10.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2571,7 +2571,7 @@
     "order_count": 0,
     "order_number": "120",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2586,7 +2586,7 @@
     "order_count": 0,
     "order_number": "119",
     "price": "12.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2601,7 +2601,7 @@
     "order_count": 0,
     "order_number": "118",
     "price": "9.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2616,7 +2616,7 @@
     "order_count": 0,
     "order_number": "117",
     "price": "9.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2631,7 +2631,7 @@
     "order_count": 12,
     "order_number": "116",
     "price": "9.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2646,7 +2646,7 @@
     "order_count": 0,
     "order_number": "115",
     "price": "9.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2661,7 +2661,7 @@
     "order_count": 0,
     "order_number": "114",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2676,7 +2676,7 @@
     "order_count": 0,
     "order_number": "113",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2691,7 +2691,7 @@
     "order_count": 0,
     "order_number": "112",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2706,7 +2706,7 @@
     "order_count": 0,
     "order_number": "111",
     "price": "9.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2721,7 +2721,7 @@
     "order_count": 0,
     "order_number": "110",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2736,7 +2736,7 @@
     "order_count": 0,
     "order_number": "109",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2751,7 +2751,7 @@
     "order_count": 0,
     "order_number": "108",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2766,7 +2766,7 @@
     "order_count": 0,
     "order_number": "107",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2781,7 +2781,7 @@
     "order_count": 0,
     "order_number": "106",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2796,7 +2796,7 @@
     "order_count": 0,
     "order_number": "105",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2811,7 +2811,7 @@
     "order_count": 0,
     "order_number": "104",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2826,7 +2826,7 @@
     "order_count": 0,
     "order_number": "103",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2841,7 +2841,7 @@
     "order_count": 0,
     "order_number": "102",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2856,7 +2856,7 @@
     "order_count": 0,
     "order_number": "101",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2871,7 +2871,7 @@
     "order_count": 0,
     "order_number": "100",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2886,7 +2886,7 @@
     "order_count": 0,
     "order_number": "99",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2901,7 +2901,7 @@
     "order_count": 0,
     "order_number": "98",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2916,7 +2916,7 @@
     "order_count": 0,
     "order_number": "97",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2931,7 +2931,7 @@
     "order_count": 1,
     "order_number": "96",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2946,7 +2946,7 @@
     "order_count": 1,
     "order_number": "95",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2961,7 +2961,7 @@
     "order_count": 0,
     "order_number": "94",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2976,7 +2976,7 @@
     "order_count": 0,
     "order_number": "93",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -2991,7 +2991,7 @@
     "order_count": 1,
     "order_number": "92",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3006,7 +3006,7 @@
     "order_count": 0,
     "order_number": "91",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3021,7 +3021,7 @@
     "order_count": 0,
     "order_number": "90",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3036,7 +3036,7 @@
     "order_count": 0,
     "order_number": "89",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3051,7 +3051,7 @@
     "order_count": 0,
     "order_number": "88",
     "price": "7.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3066,7 +3066,7 @@
     "order_count": 0,
     "order_number": "87",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3081,7 +3081,7 @@
     "order_count": 0,
     "order_number": "86",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3096,7 +3096,7 @@
     "order_count": 0,
     "order_number": "85",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3111,7 +3111,7 @@
     "order_count": 0,
     "order_number": "84",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3126,7 +3126,7 @@
     "order_count": 0,
     "order_number": "83",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3141,7 +3141,7 @@
     "order_count": 0,
     "order_number": "82",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3156,7 +3156,7 @@
     "order_count": 0,
     "order_number": "81",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3171,7 +3171,7 @@
     "order_count": 0,
     "order_number": "80",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3186,7 +3186,7 @@
     "order_count": 0,
     "order_number": "79.3",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3201,7 +3201,7 @@
     "order_count": 0,
     "order_number": "79.2",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3216,7 +3216,7 @@
     "order_count": 0,
     "order_number": "79.1",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3231,7 +3231,7 @@
     "order_count": 0,
     "order_number": "79",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3246,7 +3246,7 @@
     "order_count": 4,
     "order_number": "78",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3261,7 +3261,7 @@
     "order_count": 0,
     "order_number": "77",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3276,7 +3276,7 @@
     "order_count": 0,
     "order_number": "76",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3291,7 +3291,7 @@
     "order_count": 0,
     "order_number": "75",
     "price": "7.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3306,7 +3306,7 @@
     "order_count": 0,
     "order_number": "74",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3321,7 +3321,7 @@
     "order_count": 0,
     "order_number": "73",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3336,7 +3336,7 @@
     "order_count": 0,
     "order_number": "72",
     "price": "7.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3351,7 +3351,7 @@
     "order_count": 0,
     "order_number": "71",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3366,7 +3366,7 @@
     "order_count": 0,
     "order_number": "70",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3381,7 +3381,7 @@
     "order_count": 0,
     "order_number": "69",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3396,7 +3396,7 @@
     "order_count": 0,
     "order_number": "68",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3411,7 +3411,7 @@
     "order_count": 0,
     "order_number": "67",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3426,7 +3426,7 @@
     "order_count": 0,
     "order_number": "66",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3441,7 +3441,7 @@
     "order_count": 0,
     "order_number": "65",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3456,7 +3456,7 @@
     "order_count": 0,
     "order_number": "64",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3471,7 +3471,7 @@
     "order_count": 0,
     "order_number": "63",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3486,7 +3486,7 @@
     "order_count": 0,
     "order_number": "62",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3501,7 +3501,7 @@
     "order_count": 1,
     "order_number": "61",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3516,7 +3516,7 @@
     "order_count": 0,
     "order_number": "60",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3531,7 +3531,7 @@
     "order_count": 0,
     "order_number": "59",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3546,7 +3546,7 @@
     "order_count": 0,
     "order_number": "58",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3561,7 +3561,7 @@
     "order_count": 0,
     "order_number": "57",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3576,7 +3576,7 @@
     "order_count": 0,
     "order_number": "56",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3591,7 +3591,7 @@
     "order_count": 3,
     "order_number": "55",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3606,7 +3606,7 @@
     "order_count": 0,
     "order_number": "54",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3621,7 +3621,7 @@
     "order_count": 3,
     "order_number": "",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3636,7 +3636,7 @@
     "order_count": 0,
     "order_number": "53.1 klein",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3651,7 +3651,7 @@
     "order_count": 0,
     "order_number": "53.1",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3666,7 +3666,7 @@
     "order_count": 0,
     "order_number": "53 klein",
     "price": "12.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3681,7 +3681,7 @@
     "order_count": 0,
     "order_number": "53",
     "price": "14.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3696,7 +3696,7 @@
     "order_count": 0,
     "order_number": "52 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3711,7 +3711,7 @@
     "order_count": 1,
     "order_number": "52",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3726,7 +3726,7 @@
     "order_count": 0,
     "order_number": "51 klein",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3741,7 +3741,7 @@
     "order_count": 2,
     "order_number": "51",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3756,7 +3756,7 @@
     "order_count": 1,
     "order_number": "50 klein",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3771,7 +3771,7 @@
     "order_count": 0,
     "order_number": "50",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3786,7 +3786,7 @@
     "order_count": 0,
     "order_number": "49 klein",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3801,7 +3801,7 @@
     "order_count": 0,
     "order_number": "49",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3816,7 +3816,7 @@
     "order_count": 0,
     "order_number": "47 klein",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3831,7 +3831,7 @@
     "order_count": 0,
     "order_number": "47",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3846,7 +3846,7 @@
     "order_count": 50,
     "order_number": "46 klein",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3861,7 +3861,7 @@
     "order_count": 1,
     "order_number": "46",
     "price": "8.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3876,7 +3876,7 @@
     "order_count": 1,
     "order_number": "45 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3891,7 +3891,7 @@
     "order_count": 0,
     "order_number": "45",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3906,7 +3906,7 @@
     "order_count": 0,
     "order_number": "44 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3921,7 +3921,7 @@
     "order_count": 0,
     "order_number": "44",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3936,7 +3936,7 @@
     "order_count": 0,
     "order_number": "43 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3951,7 +3951,7 @@
     "order_count": 0,
     "order_number": "43",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3966,7 +3966,7 @@
     "order_count": 34,
     "order_number": "42 klein",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3981,7 +3981,7 @@
     "order_count": 14,
     "order_number": "42",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -3996,7 +3996,7 @@
     "order_count": 0,
     "order_number": "41 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4011,7 +4011,7 @@
     "order_count": 1,
     "order_number": "41",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4026,7 +4026,7 @@
     "order_count": 1,
     "order_number": "40 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4041,7 +4041,7 @@
     "order_count": 0,
     "order_number": "40",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4056,7 +4056,7 @@
     "order_count": 1,
     "order_number": "39 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4071,7 +4071,7 @@
     "order_count": 0,
     "order_number": "39",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4086,7 +4086,7 @@
     "order_count": 0,
     "order_number": "38 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4101,7 +4101,7 @@
     "order_count": 4,
     "order_number": "38",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4116,7 +4116,7 @@
     "order_count": 0,
     "order_number": "37 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4131,7 +4131,7 @@
     "order_count": 4,
     "order_number": "37",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4146,7 +4146,7 @@
     "order_count": 0,
     "order_number": "36 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4161,7 +4161,7 @@
     "order_count": 0,
     "order_number": "36",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4176,7 +4176,7 @@
     "order_count": 0,
     "order_number": "34 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4191,7 +4191,7 @@
     "order_count": 0,
     "order_number": "34",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4206,7 +4206,7 @@
     "order_count": 1,
     "order_number": "33 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4221,7 +4221,7 @@
     "order_count": 2,
     "order_number": "33",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4236,7 +4236,7 @@
     "order_count": 1,
     "order_number": "31 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4251,7 +4251,7 @@
     "order_count": 4,
     "order_number": "31",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4266,7 +4266,7 @@
     "order_count": 11,
     "order_number": "30 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4281,7 +4281,7 @@
     "order_count": 2,
     "order_number": "30",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4296,7 +4296,7 @@
     "order_count": 4,
     "order_number": "29 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4311,7 +4311,7 @@
     "order_count": 14,
     "order_number": "29",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4326,7 +4326,7 @@
     "order_count": 4,
     "order_number": "28 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4341,7 +4341,7 @@
     "order_count": 0,
     "order_number": "28",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4356,7 +4356,7 @@
     "order_count": 0,
     "order_number": "26 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4371,7 +4371,7 @@
     "order_count": 0,
     "order_number": "26",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4386,7 +4386,7 @@
     "order_count": 3,
     "order_number": "25 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4401,7 +4401,7 @@
     "order_count": 1,
     "order_number": "25",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4416,7 +4416,7 @@
     "order_count": 1,
     "order_number": "24 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4431,7 +4431,7 @@
     "order_count": 6,
     "order_number": "24",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4446,7 +4446,7 @@
     "order_count": 6,
     "order_number": "23 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4461,7 +4461,7 @@
     "order_count": 0,
     "order_number": "23",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4476,7 +4476,7 @@
     "order_count": 21,
     "order_number": "22 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4491,7 +4491,7 @@
     "order_count": 50,
     "order_number": "22",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4506,7 +4506,7 @@
     "order_count": 2,
     "order_number": "21 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4521,7 +4521,7 @@
     "order_count": 9,
     "order_number": "21",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4536,7 +4536,7 @@
     "order_count": 0,
     "order_number": "20 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4551,7 +4551,7 @@
     "order_count": 0,
     "order_number": "20",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4566,7 +4566,7 @@
     "order_count": 16,
     "order_number": "19 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4581,7 +4581,7 @@
     "order_count": 0,
     "order_number": "19",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4596,7 +4596,7 @@
     "order_count": 0,
     "order_number": "18 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4611,7 +4611,7 @@
     "order_count": 0,
     "order_number": "18",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4626,7 +4626,7 @@
     "order_count": 25,
     "order_number": "17 klein",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4641,7 +4641,7 @@
     "order_count": 7,
     "order_number": "17",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4656,7 +4656,7 @@
     "order_count": 1,
     "order_number": "16 klein",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4671,7 +4671,7 @@
     "order_count": 2,
     "order_number": "16",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4686,7 +4686,7 @@
     "order_count": 0,
     "order_number": "13 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4701,7 +4701,7 @@
     "order_count": 1,
     "order_number": "13",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4716,7 +4716,7 @@
     "order_count": 1,
     "order_number": "12 klein",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4731,7 +4731,7 @@
     "order_count": 1,
     "order_number": "12",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4746,7 +4746,7 @@
     "order_count": 1,
     "order_number": "11 klein",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4761,7 +4761,7 @@
     "order_count": 10,
     "order_number": "11",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4776,7 +4776,7 @@
     "order_count": 0,
     "order_number": "10 klein",
     "price": "4.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4791,7 +4791,7 @@
     "order_count": 1,
     "order_number": "10",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4806,7 +4806,7 @@
     "order_count": 0,
     "order_number": "6 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4821,7 +4821,7 @@
     "order_count": 2,
     "order_number": "6",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4836,7 +4836,7 @@
     "order_count": 1,
     "order_number": "5 klein",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4851,7 +4851,7 @@
     "order_count": 14,
     "order_number": "5",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4866,7 +4866,7 @@
     "order_count": 0,
     "order_number": "3 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4881,7 +4881,7 @@
     "order_count": 8,
     "order_number": "3",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4896,7 +4896,7 @@
     "order_count": 1,
     "order_number": "2 klein",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4911,7 +4911,7 @@
     "order_count": 0,
     "order_number": "2",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4926,7 +4926,7 @@
     "order_count": 10,
     "order_number": "1 klein",
     "price": "3.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4941,7 +4941,7 @@
     "order_count": 20,
     "order_number": "1",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4956,7 +4956,7 @@
     "order_count": 7,
     "order_number": "14 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4971,7 +4971,7 @@
     "order_count": 7,
     "order_number": "14",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -4986,7 +4986,7 @@
     "order_count": 0,
     "order_number": "35 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5001,7 +5001,7 @@
     "order_count": 0,
     "order_number": "35",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5016,7 +5016,7 @@
     "order_count": 0,
     "order_number": "32 klein",
     "price": "5.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5031,7 +5031,7 @@
     "order_count": 0,
     "order_number": "32",
     "price": "6.9",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5046,7 +5046,7 @@
     "order_count": 11,
     "order_number": "27 klein",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5061,7 +5061,7 @@
     "order_count": 17,
     "order_number": "27",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5076,7 +5076,7 @@
     "order_count": 0,
     "order_number": "48 klein",
     "price": "7.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5091,7 +5091,7 @@
     "order_count": 0,
     "order_number": "48",
     "price": "8.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5106,7 +5106,7 @@
     "order_count": 14,
     "order_number": "8 klein",
     "price": "4.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5121,7 +5121,7 @@
     "order_count": 21,
     "order_number": "8",
     "price": "5.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5136,7 +5136,7 @@
     "order_count": 3,
     "order_number": "4 klein",
     "price": "4.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5151,7 +5151,7 @@
     "order_count": 10,
     "order_number": "4",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5166,7 +5166,7 @@
     "order_count": 43,
     "order_number": "9 klein",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5181,7 +5181,7 @@
     "order_count": 48,
     "order_number": "9",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5196,7 +5196,7 @@
     "order_count": 50,
     "order_number": "15 klein",
     "price": "5.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5211,7 +5211,7 @@
     "order_count": 1,
     "order_number": "15",
     "price": "6.5",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5226,7 +5226,7 @@
     "order_count": 0,
     "order_number": "7 klein",
     "price": "6.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,
@@ -5241,7 +5241,7 @@
     "order_count": 3,
     "order_number": "7",
     "price": "7.0",
-    "menu": {
+    "takeaway": {
       "description": "Pizzeria",
       "has_numbers": true,
       "id": 1,

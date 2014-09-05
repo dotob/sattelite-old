@@ -8,6 +8,6 @@ if Meteor.isClient
   Template.takeaways.takeaways = ->
     dishes = share.Dishes.find({}).fetch()
     takeaways_grouped = _.groupBy dishes, (d) ->
-      d.menu.id
+      d.takeaway.id
     _.map _.values(takeaways_grouped), (g) ->
-      _.first(g).menu
+      _.first(g).takeaway
