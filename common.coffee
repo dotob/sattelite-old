@@ -90,7 +90,7 @@ share.Dishes.attachSchema(Schemas.Dish);
 
 share.Orders = new Meteor.Collection "orders"
 Schemas.Order = new SimpleSchema({
-  order_master: {
+  organizer: {
     type: Schemas.User,
     label: "Organizer",
     max: 200
