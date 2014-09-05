@@ -1,6 +1,6 @@
 if Meteor.isClient
   # config
-  Accounts.ui.config { passwordSignupFields: 'USERNAME_ONLY' }
+  Accounts.ui.config { passwordSignupFields: 'USERNAME_AND_EMAIL' }
   
   Template.dishes.dishes = ->
     share.Dishes.find {}

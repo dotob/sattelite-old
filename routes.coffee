@@ -1,10 +1,13 @@
+Router.configure ->
+  layoutTemplate: 'layout'
+
 #first stubs for the routes
 Router.map ->
   
   # home screen shows a login form if the user's not logged in.
   # if the user is logged in, if there's no foodrun 
   # it shows a list of takeaways plus a button "start a food run".
-  @route "home",
+  @route "pleaselogin",
     path: "/"
 
   # if a foodrun is started, the menu of the chosen takeaway is shown.
