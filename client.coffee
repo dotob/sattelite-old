@@ -2,6 +2,19 @@ if Meteor.isClient
   # config
   Accounts.ui.config { passwordSignupFields: 'USERNAME_AND_EMAIL' }
   
+  takeaway_data = [
+      {
+        name: "takeaway1"
+      }
+      {
+        name: "takeaway2"
+      }
+  
+  ]
+
+  Template.home.helpers
+    takeaways: takeaway_data
+
   Template.dishes.dishes = ->
     share.Dishes.find {}
 

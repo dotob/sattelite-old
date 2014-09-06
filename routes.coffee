@@ -7,7 +7,7 @@ Router.map ->
   # home screen shows a login form if the user's not logged in.
   # if the user is logged in, if there's no foodrun 
   # it shows a list of takeaways plus a button "start a food run".
-  @route "pleaselogin",
+  @route "home",
     path: "/"
 
   # if no foodrun is started, let user choose one
