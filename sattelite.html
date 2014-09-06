@@ -1,0 +1,23 @@
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>sattelite</title>
+</head>
+
+<body>
+  <div id="outer">
+    {{> takeaways}}
+  </div>
+</body>
+
+<template name="takeaways">
+  <div class="takeaways">
+    <h1>Choose a takeaway.</h1>
+    {{#each takeaways}}
+      <h2>{{name}}</h2>
+    {{/each}}
+  </div>
+</template>
+
+<template name="takeaway">
+  <h2>{{name}}</h2>
+</template>
