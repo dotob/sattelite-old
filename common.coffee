@@ -26,10 +26,11 @@ Schemas.User = new SimpleSchema({
 })
 Meteor.users.attachSchema(Schemas.User);
 
+share.Takeaways = new Meteor.Collection "takeaways"
 Schemas.Takeaway = new SimpleSchema({
   name: {
     type: String,
-    label: "Title",
+    label: "Name",
     max: 200
   },
   description: {
@@ -43,12 +44,13 @@ Schemas.Takeaway = new SimpleSchema({
     label: "Phone Number",
     max: 200
   },
-  id: {
-    type: String,
-    label: "Title",
-    max: 200
-  }
+  dishes: {
+    type: [Object],
+    label: "Dishes",
+    optional: true
+  },
 })
+share.Takeaways.attachSchema(Schemas.Takeaway);
 
 share.Dishes = new Meteor.Collection "dishes"
 Schemas.Dish = new SimpleSchema({
