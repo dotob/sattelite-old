@@ -11,7 +11,7 @@
 
 <template name="takeaways">
   <div class="takeaways">
-    {{#if foodruns}}
+    {{#if foodruns.count}}
       <h1>There are allready foodruns to:</h1>
       {{#each foodruns}}
         <h2 class="foodrun_name">{{takeaway.name}}</h2>
