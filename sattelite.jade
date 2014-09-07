@@ -32,6 +32,7 @@ template(name="home")
           .col-md-2
             .takeaway
               .name #{name}
+              .phone #{phone}
 
 template(name="main")
   .container
@@ -41,15 +42,6 @@ template(name="main")
     .row
       .col-md-12
         +dishes
-
-template(name="takeaways")
-  .takeaways
-    .row
-      each takeaways
-        .col-md-2
-          .takeaway
-            .name #{name}
-            .phone #{phone}
 
 template(name="dishes")
   .dishes
