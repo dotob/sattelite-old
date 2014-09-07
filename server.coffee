@@ -21,7 +21,7 @@ if Meteor.isServer
                        })
         else
           ta_id = ta._id
-        
+
         new_dish = {
           name:         dish.name,
           description:  dish.description,
@@ -30,4 +30,4 @@ if Meteor.isServer
         };
 
         # ...and add the dish-object to the takeaway's dishes
-        share.Takeaways.update(ta_id, {$push: {dishes: new_dish}});
+        share.Takeaways.update({_id: ta_id}, {$push: {dishes: new_dish}});
