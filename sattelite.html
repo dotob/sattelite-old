@@ -13,7 +13,12 @@
   <div class="takeaways">
     <h1>Choose a takeaway.</h1>
     {{#each takeaways}}
-      <h2 class="template_name">{{name}}</h2>
+      {{>takeaway}}
     {{/each}}
   </div>
+</template>
+
+<template name="takeaway">
+  {{log}}
+  <h2 class="template_name">{{name}}</h2>
 </template>
