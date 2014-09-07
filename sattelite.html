@@ -11,6 +11,12 @@
 
 <template name="takeaways">
   <div class="takeaways">
+    {{#if foodruns}}
+      <h1>There are allready foodruns to:</h1>
+      {{#each foodruns}}
+        <h2 class="foodrun_name">{{takeaway.name}}</h2>
+      {{/each}}
+    {{/if}}
     <h1>Choose a takeaway.</h1>
     {{#each takeaways}}
       {{>takeaway}}
