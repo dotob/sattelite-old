@@ -18,6 +18,7 @@ the outer div wasn't needed anyways...
       <h1>There are allready foodruns to:</h1>
       {{#each foodruns}}
         <h2 class="foodrun_name">{{takeaway.name}}</h2>
+        <a href="{{pathFor 'foodrun'}}">Show foodrun</a>
       {{/each}}
     {{/if}}
     <h1>Choose a takeaway.</h1>
@@ -40,4 +41,20 @@ the outer div wasn't needed anyways...
       <p>{{phone}}</p>
     {{/ with}}
   </div>
+</template>
+
+<template name="foodrun">
+  <div class="foodrun">
+    {{#with foodrun}}
+      <h2>This foodrun goes to: {{takeaway.name}}</h2>
+      <p>This is the menu. Click item to bespeak.</p>
+      {{#each takeaway.dishes}}
+        {{> dishesListItem}}
+      {{/each}}
+    {{/with}}
+  </div>
+</template>
+
+<template name="dishesListItem">
+  <h3 class="dishesName">{{name}}</h3>
 </template>

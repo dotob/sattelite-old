@@ -20,4 +20,15 @@ Router.map(function () {
       }
     }
   });
+
+  this.route('foodrun', {
+    path: 'foodrun/:_id',
+    template: 'foodrun',
+    data: function () {
+      return {
+        foodrun: FoodRuns.findOne({_id: this.params._id})
+      }
+    }
+  });
+
 });
