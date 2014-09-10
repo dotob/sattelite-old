@@ -46,6 +46,12 @@ the outer div wasn't needed anyways...
 <template name="foodrun">
   <div class="foodrun">
     {{#with foodrun}}
+      {{#if bespokenDishes.count}}
+        <h2>Those are the dishes allready bespoken:</h2>
+        {{#each bespokenDishes}}
+          <h3>{{name}}</h3>
+        {{/each}}
+      {{/if}}
       <h2>This foodrun goes to: {{takeaway.name}}</h2>
       <p>This is the menu. Click item to bespeak.</p>
       {{#each takeaway.dishes}}
