@@ -22,11 +22,22 @@ the outer div wasn't needed anyways...
     {{/if}}
     <h1>Choose a takeaway.</h1>
     {{#each takeaways}}
-      {{> takeaway}}
+      {{> takeawaysListItem}}
     {{/each}}
   </div>
 </template>
 
-<template name="takeaway">
+<template name="takeawaysListItem">
   <h2 class="template_name">{{name}}</h2>
+  <a href="{{pathFor 'takeaway'}}">Show takeaway</a>
+</template>
+
+<template name="takeaway">
+  <div class="takeaway">
+    {{#with takeaway}}
+    <h2>{{name}}</h2> 
+    <p>{{description}}</p>
+    <p>{{phone}}</p>
+    {{/ with}}
+  </div>
 </template>
