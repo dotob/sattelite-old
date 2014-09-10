@@ -13,7 +13,7 @@ Router.map(function () {
 
   this.route('takeaway', {
     path: 'takeaway/:_id',
-    template: '',
+    template: 'takeaway',
     data: function () {
       return {
         takeaway: Takeaways.findOne({_id: this.params._id})
