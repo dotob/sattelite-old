@@ -46,7 +46,7 @@ the outer div wasn't needed anyways...
 <template name="foodrun">
   <div class="foodrun">
     {{#with foodrun}}
-      {{#if bespokenDishes.count}}
+      {{#if bespokenDishes}}
         <h2>Those are the dishes allready bespoken:</h2>
         {{#each bespokenDishes}}
           <h3>{{name}}</h3>
