@@ -17,7 +17,7 @@ the outer div wasn't needed anyways...
   <div class="takeaways">
     
     {{#unless currentUser}}
-      <h2>logged not in.</h2>
+      <h2>log in to start a food run.</h2>
     {{/unless}}
 
     {{#if foodruns.count}}
@@ -29,7 +29,7 @@ the outer div wasn't needed anyways...
       {{/each}}
     {{/if}}
     
-    <h1>Choose a takeaway.</h1>
+    <h1>Choose a takeaway:</h1>
     {{#each takeaways}}
       {{> takeawaysListItem}}
     {{/each}}
