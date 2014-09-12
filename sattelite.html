@@ -14,35 +14,52 @@ the outer div wasn't needed anyways...
 </body>
 
 <template name="takeaways">
-  <div class="takeaways">
-    
-    {{#unless currentUser}}
-      <h2>log in to start a food run.</h2>
-    {{/unless}}
-
-    {{#if foodruns.count}}
-      <h1>There are allready foodruns to:</h1>
-      {{#each foodruns}}
-        <h2>{{takeaway.name}}</h2>
-        <h3>organizer: {{organizer.username}}</h3>
-        <a href="{{pathFor 'foodrun'}}">Show foodrun</a>
+  <div class="row">
+    <div class="medium-6 columns">
+      <h2>So you want to start a foodrun?</h2>
+      <h4 class="subheader">Great! go ahead and choose a takeaway you want to order food with:</h4>
+      {{#each takeaways}}
+        {{> takeawaysListItem}}
       {{/each}}
-    {{/if}}
-    
-    <h1>Choose a takeaway:</h1>
-    {{#each takeaways}}
-      {{> takeawaysListItem}}
-    {{/each}}
+    </div>
+    <div class="medium-6 columns">
+      {{#unless currentUser}}
+        <h3>log in to start a food run.</h3>
+      {{/unless}}
+      {{#if foodruns.count}}
+        <h2>But wait... There are allready foodruns!</h2>
+        <h4 class="subheader">So spare the hassle and just take part in one. Hmmmm, yum yum!</h4>
+        {{#each foodruns}}
+          <hr />
+          <div class="medium-6 columns">
+            <h3>{{takeaway.name}}</h3>
+            <p>{{takeaway.description}} <br />
+              organized by: {{organizer.username}}</p>
+          </div>
+          <div class="medium-6 columns">
+            <a href="{{pathFor 'foodrun'}}">Show foodrun</a>
+          </div>
+        {{/each}}
+      {{/if}}
+    </div>
 
   </div>
 </template>
 
 <template name="takeawaysListItem">
-  <h2>{{name}}</h2>
-  <a href="{{pathFor 'takeaway'}}">Show takeaway</a>
-  {{#if currentUser}}
-    <a class="startFoodrun" href="#">Start foodrun</a>
-  {{/if}}
+  <hr />
+  <div class="row">
+    <div class="medium-8 columns">
+      <h3>{{name}}</h3>
+      <p>{{description}}</p>
+    </div>
+    <div class="medium-4 columns">
+      <a href="{{pathFor 'takeaway'}}">Show takeaway</a>
+      {{#if currentUser}}
+        <a class="startFoodrun" href="#">Start foodrun</a>
+      {{/if}}
+    </div>
+  </div>
 </template>
 
 

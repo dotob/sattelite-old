@@ -9,5 +9,6 @@ insecure
 alethes:lodash@0.7.1
 iron:router
 accounts-password
+ewall:foundation
 accounts-ui
 
