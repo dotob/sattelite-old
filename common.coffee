@@ -1,55 +1,58 @@
 # collections
 Schemas = {}
 
-Schemas.User = new SimpleSchema({
-    _id: {
-        type: String,
-        regEx: SimpleSchema.RegEx.Id
-    },
-    username: {
-        type: String,
-        regEx: /^[a-z0-9A-Z_]{3,15}$/
-    },
-    emails: {
-        type: [Object]
-    },
-    "emails.$.address": {
-        type: String,
-        regEx: SimpleSchema.RegEx.Email
-    },
-    "emails.$.verified": {
-        type: Boolean
-    },
-    createdAt: {
-        type: Date
-    }
-})
+Schemas.User = new SimpleSchema(
+  _id: 
+    type: String
+    regEx: SimpleSchema.RegEx.Id
+  username: 
+    type: String
+    regEx: /^[a-z0-9A-Z_]{3,15}$/
+  emails: 
+    type: [Object]
+  "emails.$.address": 
+    type: String
+    regEx: SimpleSchema.RegEx.Email
+  "emails.$.verified": 
+    type: Boolean
+  createdAt: 
+    type: Date
+)
 Meteor.users.attachSchema(Schemas.User);
 
 share.Takeaways = new Meteor.Collection "takeaways"
-Schemas.Takeaway = new SimpleSchema({
-  name: {
-    type: String,
-    label: "Name",
+Schemas.Takeaway = new SimpleSchema(
+  name: 
+    type: String
+    label: "Name"
     max: 200
-  },
-  description: {
-    type: String,
-    label: "Description",
-    optional: true,
-    max: 200
-  },
-  phone: {
-    type: String,
-    label: "Phone Number",
-    max: 200
-  },
-  dishes: {
-    type: [Object],
-    label: "Dishes",
+  description: 
+    type: String
+    label: "Description"
     optional: true
-  },
-})
+    max: 200
+  phone: 
+    type: String
+    label: "Phone Number"
+    max: 200
+  dishes: 
+    type: [Object]
+    label: "Dishes"
+    optional: true
+#  "dishes.$._id": 
+#    type: String
+#    regEx: SimpleSchema.RegEx.Id
+  "dishes.$.name":
+    type: String
+  "dishes.$.description":
+    type: String
+    optional: true
+  "dishes.$.number":
+    type: String
+    optional: true
+  "dishes.$.price":
+    type: String
+)
 share.Takeaways.attachSchema(Schemas.Takeaway);
 
 share.Dishes = new Meteor.Collection "dishes"

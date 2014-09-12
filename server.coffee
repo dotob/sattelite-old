@@ -13,21 +13,20 @@ if Meteor.isServer
         ta = share.Takeaways.findOne({name: dish.takeaway.name})
         # if takeaway no exists add it
         if !ta
-           ta_id = share.Takeaways.insert({
-                         name:           dish.takeaway.name,
-                         description:    dish.takeaway.description,
-                         phone:          dish.takeaway.phone,
-                         dishes:         []
-                       })
+          ta_id = share.Takeaways.insert
+            name:           dish.takeaway.name
+            description:    dish.takeaway.description
+            phone:          dish.takeaway.phone
         else
           ta_id = ta._id
 
-        new_dish = {
-          name:         dish.name,
-          description:  dish.description,
-          number:       dish.order_number,
-          price:        dish.price
-        };
+        new_dish =
+          _id:          Meteor.ObjectId
+          name:         dish.name
+          description:  dish.description
+          number:       dish.order_number
+          price:        parseFloat dish.price
 
         # ...and add the dish-object to the takeaway's dishes
+        console.log new_dish
         share.Takeaways.update({_id: ta_id}, {$push: {dishes: new_dish}});
