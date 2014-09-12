@@ -6,7 +6,7 @@ if (Meteor.isClient) {
       FoodRuns.insert({
         takeaway: takeaway, 
         bespokenDishes: [],
-        organizerId: Meteor.userId()
+        organizer: Meteor.user()
       });
     }
   });
