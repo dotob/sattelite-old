@@ -24,6 +24,7 @@ the outer div wasn't needed anyways...
       <h1>There are allready foodruns to:</h1>
       {{#each foodruns}}
         <h2>{{takeaway.name}}</h2>
+        <h3>organizer: {{organizer.username}}</h3>
         <a href="{{pathFor 'foodrun'}}">Show foodrun</a>
       {{/each}}
     {{/if}}
