@@ -5,7 +5,8 @@ if (Meteor.isClient) {
       var takeaway = Takeaways.findOne({_id: this._id});
       FoodRuns.insert({
         takeaway: takeaway, 
-        bespokenDishes: []
+        bespokenDishes: [],
+        organizerId: Meteor.userId()
       });
     }
   });
