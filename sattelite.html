@@ -63,6 +63,7 @@ the outer div wasn't needed anyways...
         <h2>Those are the dishes allready bespoken:</h2>
         {{#each bespokenDishes}}
           <h3>{{name}}</h3>
+          <h4>bespoken by: {{bespokenBy.username}}</h4>
         {{/each}}
       {{/if}}
       <h2>This foodrun goes to: {{takeaway.name}}</h2>
