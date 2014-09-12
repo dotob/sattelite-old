@@ -15,24 +15,35 @@ the outer div wasn't needed anyways...
 
 <template name="takeaways">
   <div class="takeaways">
+    
+    {{#unless currentUser}}
+      <h2>logged not in.</h2>
+    {{/unless}}
+
     {{#if foodruns.count}}
       <h1>There are allready foodruns to:</h1>
       {{#each foodruns}}
-        <h2 class="foodrun_name">{{takeaway.name}}</h2>
+        <h2>{{takeaway.name}}</h2>
         <a href="{{pathFor 'foodrun'}}">Show foodrun</a>
       {{/each}}
     {{/if}}
+    
     <h1>Choose a takeaway.</h1>
     {{#each takeaways}}
       {{> takeawaysListItem}}
     {{/each}}
+
   </div>
 </template>
 
 <template name="takeawaysListItem">
-  <h2 class="template_name">{{name}}</h2>
+  <h2>{{name}}</h2>
   <a href="{{pathFor 'takeaway'}}">Show takeaway</a>
+  {{#if currentUser}}
+    <a class="startFoodrun" href="#">Start foodrun</a>
+  {{/if}}
 </template>
+
 
 <template name="takeaway">
   <div class="takeaway">
@@ -63,5 +74,8 @@ the outer div wasn't needed anyways...
 </template>
 
 <template name="dishesListItem">
-  <h3 class="dishesName">{{name}}</h3>
+  <h3>{{name}}</h3>
+  {{#if currentUser}}
+    <a class="bespeakDish" href="#">bespeak dish</a>
+  {{/if}}
 </template>

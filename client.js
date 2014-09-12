@@ -1,7 +1,7 @@
 if (Meteor.isClient) {
 
   Template.takeawaysListItem.events({
-    'click .template_name': function (event) {
+    'click .startFoodrun': function (event) {
       var takeaway = Takeaways.findOne({_id: this._id});
       FoodRuns.insert({
         takeaway: takeaway, 
@@ -11,7 +11,7 @@ if (Meteor.isClient) {
   });
 
   Template.foodrun.events({
-    'click .dishesName': function (event, foodrunTemplate) {
+    'click .bespeakDish': function (event, foodrunTemplate) {
       FoodRuns.update({_id: foodrunTemplate.data.foodrun._id}, {$push: {bespokenDishes: this}});
     }
   });
