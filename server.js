@@ -49,5 +49,21 @@ if (Meteor.isServer) {
 
       };
     }
+
+    //if empty, populate the user collection 
+    if ( Meteor.users.find().count() === 0 ) {
+        Accounts.createUser({
+            username: 'benjamin',
+            password: 'benjamin',
+        });
+        Accounts.createUser({
+            username: 'sebastian',
+            password: 'sebastian',
+        });
+        Accounts.createUser({
+            username: 'niklas',
+            password: 'niklas',
+        });
+    }
   })
 };

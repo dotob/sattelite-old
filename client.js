@@ -16,4 +16,8 @@ if (Meteor.isClient) {
       FoodRuns.update({_id: foodrunTemplate.data.foodrun._id}, {$push: {bespokenDishes: this}});
     }
   });
+
+  Accounts.ui.config({
+    passwordSignupFields: 'USERNAME_ONLY'
+  });
 }
