@@ -9,24 +9,21 @@ if Meteor.isServer
       dishes_json = fs.readFileSync file, 'utf8'
       dishes_init = JSON.parse dishes_json
       for dish in dishes_init
-        share.Dishes.insert dish
-        ta = share.Takeaways.findOne({name: dish.takeaway.name})
-        # if takeaway no exists add it
+        t =
+          name:        dish.takeaway.name
+          description: dish.takeaway.description
+          phone:       dish.takeaway.phone
+        dish.takeaway = ""
+        dish_id = share.Dishes.insert dish
+        new_dish = share.Dishes.findOne(dish_id)
+        
+        ta = share.Takeaways.findOne({name: t.name})
+        # if takeaway does not exists add it
         if !ta
-          ta_id = share.Takeaways.insert
-            name:           dish.takeaway.name
-            description:    dish.takeaway.description
-            phone:          dish.takeaway.phone
+          ta_id = share.Takeaways.insert t
         else
           ta_id = ta._id
 
-        new_dish =
-          _id:          Meteor.ObjectId
-          name:         dish.name
-          description:  dish.description
-          number:       dish.order_number
-          price:        parseFloat dish.price
-
         # ...and add the dish-object to the takeaway's dishes
-        console.log new_dish
         share.Takeaways.update({_id: ta_id}, {$push: {dishes: new_dish}});
+        share.Dishes.update({_id: dish_id}, {$set: {takeaway: ta_id}});
