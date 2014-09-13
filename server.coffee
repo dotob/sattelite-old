@@ -27,3 +27,18 @@ if Meteor.isServer
         # ...and add the dish-object to the takeaway's dishes
         share.Takeaways.update({_id: ta_id}, {$push: {dishes: new_dish}});
         share.Dishes.update({_id: dish_id}, {$set: {takeaway: ta_id}});
+
+    #if empty, populate the user collection 
+    if !_.any Meteor.users.find().fetch()
+        Accounts.createUser
+            username: 'benjamin'
+            password: 'benjamin'
+            email:    'mail@benjaminbuch.de'
+        Accounts.createUser
+            username: 'sebastian'
+            password: 'sebastian'
+            email:    'sk@dotob.de'
+        Accounts.createUser
+            username: 'niklas'
+            password: 'niklas'
+            email:    'niklas@niklas.de'
