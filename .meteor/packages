@@ -10,8 +10,9 @@ coffeescript
 alethes:lodash@0.7.1
 accounts-password
 stylus
-aldeed:collection2
 waitingkuo:jade
 iron:router
 accounts-ui
+aldeed:simple-schema@1.0.3
+aldeed:collection2@2.0.0
 

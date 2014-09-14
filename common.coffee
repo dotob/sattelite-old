@@ -18,7 +18,7 @@ Schemas.User = new SimpleSchema
   createdAt:
     type: Date
 
-Meteor.users.attachSchema Schemas.User
+#Meteor.users.attachSchema Schemas.User
 
 share.Dishes = new Meteor.Collection "dishes"
 Schemas.Dish = new SimpleSchema
@@ -73,7 +73,7 @@ Schemas.Takeaway = new SimpleSchema
 
 share.Takeaways.attachSchema Schemas.Takeaway
 
-share.FoodRuns = new Meteor.Collection "food_runs"
+share.FoodRuns = new Meteor.Collection "foodruns"
 Schemas.FoodRun = new SimpleSchema
   organizer:
     type: Schemas.User
@@ -86,12 +86,12 @@ Schemas.FoodRun = new SimpleSchema
   date:
     type: Date
     label: "FoodRun date"
-  order_item:
+  bespokenDishes:
     type: [Schemas.OrderItem]
 
-share.FoodRuns.attachSchema Schemas.FoodRun
+#share.FoodRuns.attachSchema Schemas.FoodRun
 
-share.OrderItems = new Meteor.Collection "order_items"
+share.OrderItems = new Meteor.Collection "orderitems"
 Schemas.OrderItem = new SimpleSchema
   user:
     type: Schemas.User
@@ -106,3 +106,5 @@ Schemas.OrderItem = new SimpleSchema
     label: "Order"
 
 share.OrderItems.attachSchema Schemas.OrderItem
+
+#console.dir Meteor.users.simpleSchema().schema()
