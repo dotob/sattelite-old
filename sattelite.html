@@ -23,14 +23,14 @@ the outer div wasn't needed anyways...
 
 <template name="takeaways">
   <div class="pure-g">
-    <div class="pure-u-1 pure-u-md-1-2">
+    <div class="l-box pure-u-1 pure-u-md-1-2">
       <h2>So you want to start a foodrun?</h2>
       <h4 class="subheader">Great! go ahead and choose a takeaway you want to order food with:</h4>
       {{#each takeaways}}
         {{> takeawaysListItem}}
       {{/each}}
     </div>
-    <div class="pure-u-1 pure-u-md-1-2">
+    <div class="l-box pure-u-1 pure-u-md-1-2">
       {{#unless currentUser}}
         <h3>log in to start a food run.</h3>
       {{/unless}}
@@ -39,12 +39,12 @@ the outer div wasn't needed anyways...
         <h4 class="subheader">So spare the hassle and just take part in one. Hmmmm, yum yum!</h4>
         {{#each foodruns}}
           <hr />
-          <div class="pure-u-1-2">
+          <div class="l-box pure-u-1-2">
             <h3>{{takeaway.name}}</h3>
             <p>{{takeaway.description}} <br />
               organized by: {{organizer.username}}</p>
           </div>
-          <div class="pure-u-1-2">
+          <div class="l-box pure-u-1-2">
             <a href="{{pathFor 'foodrun'}}">Show foodrun</a>
           </div>
         {{/each}}
