@@ -11,8 +11,7 @@ alethes:lodash@0.7.1
 accounts-password
 stylus
 aldeed:collection2
-ian:accounts-ui-bootstrap-3
-ian:bootstrap-3
 waitingkuo:jade
 iron:router
+accounts-ui
 

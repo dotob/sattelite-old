@@ -27,7 +27,7 @@ template(name="takeaways")
             p #{takeaway.description}
             p organized by: #{organizer.username}
           .pure-u-1-2
-            a(href="#{pathFor 'foodrun'}") Show foodrun
+            a(href="{{pathFor 'foodrun'}}") Show foodrun
 
 template(name="takeawaysListItem")
   hr
@@ -36,7 +36,7 @@ template(name="takeawaysListItem")
       h3 #{name}
       p #{description}
     .pure-u-1-3
-      a(href="#{pathFor 'takeaway'}") Show takeaway
+      a(href="{{pathFor 'takeaway'}}") Show takeaway
       +if currentUser
         a.startFoodrun(href="#") Start foodrun
 
