@@ -1,0 +1,32 @@
+<template name="foodrun">
+  <div class="pure-g">
+    {{#with foodrun}}
+      <div class="l-box pure-u-1 pure-u-md-1-2">
+        <h2>This foodrun goes to: {{takeaway.name}}</h2>
+        <p>This is the menu.</p>
+        {{#each takeaway.dishes}}
+          {{> dishesListItem}}
+        {{/each}}
+      </div>
+      {{#if bespokenDishes}}
+        <div class="l-box pure-u-1 pure-u-md-1-2">
+          <h2>Those are the dishes allready bespoken.</h2>
+          <p>Go ahead. All delicious.</p>
+          {{#each bespokenDishes}}
+            <hr />
+            <h3>{{name}}</h3>
+            <h4>bespoken by: {{bespokenBy.username}}</h4>
+          {{/each}}
+        </div>
+      {{/if}}
+    {{/with}}
+  </div>
+</template>
+
+<template name="dishesListItem">
+  <hr />
+  <h3>{{name}}</h3>
+  {{#if currentUser}}
+    <a class="bespeakDish" href="#">bespeak dish</a>
+  {{/if}}
+</template>

@@ -1,0 +1,15 @@
+<template name="takeaway">
+  <div class="pure-g">
+    <div class="l-box pure-u-1">
+      {{#with takeaway}}
+        <h2>{{name}}</h2> 
+        <p>{{description}}</p>
+        <p>{{phone}}</p>
+      {{/ with}}
+      <h3>The menu:</h3>
+      {{#each takeaway.dishes}}
+        <p>{{name}}</p>
+      {{/each}}
+    </div>
+  </div>
+</template>
