@@ -4,15 +4,18 @@ with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
 specific font stacks to ensure the greatest OS/browser compatibility.
 */
 
+box-sizing()
+  -webkit-box-sizing arguments
+  -moz-box-sizing arguments
+  box-sizing arguments
+
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"]
     /* Set your content font stack here: */
-    font-family: Georgia, Times, "Times New Roman", serif
+  font-family Georgia, Times, "Times New Roman", serif
 
 .pure-g > div
-    -webkit-box-sizing: border-box
-    -moz-box-sizing: border-box
-    box-sizing: border-box
+  box-sizing border-box
 
 .l-box
-    padding: 1em
+  padding 1em

@@ -68,16 +68,16 @@ template(name="foodrun")
       .l-box.pure-u-1.pure-u-md-1-2
         h2 This foodrun goes to: #{takeaway.name}
         p This is the menu
+        p Go ahead. All delicious.
         each takeaway.dishes
           +dishesListItem
-        if bespokenDishes
-          .l-box.pure-u-1.pure-u-md-1-2
-            h2 Those are the dishes already bespoken:
-            p Go ahead. All delicious.
-            each bespokenDishes
-              hr
-              h3 #{name}
-              h4 bespoken by: #{bespokenBy.username}
+      if bespokenDishes
+        .l-box.pure-u-1.pure-u-md-1-2
+          h2 Those are the dishes already bespoken:
+          each bespokenDishes
+            hr
+            h3 #{name}
+            h4 bespoken by: #{bespokenBy.username}
 
 template(name="dishesListItem")
   hr
