@@ -67,6 +67,11 @@ template(name="foodrun")
     with foodrun
       .l-box.pure-u-1.pure-u-md-1-2
         h2 This foodrun goes to: #{takeaway.name}
+          small #{state}
+        if isOpen
+          a.closeFoodrun(href="#") close foodrun
+        else
+          a.reopenFoodrun(href="#") reopen foodrun
         p This is the menu
         p Go ahead. All delicious.
         table.pure-table-striped

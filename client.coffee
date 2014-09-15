@@ -16,3 +16,12 @@ if Meteor.isClient
     'click .bespeakDish': (event, foodrunTemplate) ->
       this.bespokenBy = Meteor.user()
       share.FoodRuns.update({_id: foodrunTemplate.data.foodrun._id}, {$push: {bespokenDishes: this}})
+    'click .closeFoodrun': (event, foodrunTemplate) ->
+      share.FoodRuns.update({_id: foodrunTemplate.data.foodrun._id}, {$set: {state: "closed"}})
+    'click .reopenFoodrun': (event, foodrunTemplate) ->
+      share.FoodRuns.update({_id: foodrunTemplate.data.foodrun._id}, {$set: {state: "ongoing"}})
+
+  Template.foodrun.helpers
+    isOpen: () ->
+      this.state == "ongoing"
+

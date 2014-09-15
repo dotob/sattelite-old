@@ -29,10 +29,8 @@ Router.map ->
         if fr.state == "finished" || fr.date < yesterday
           Router.go "home"
 
-
-
 # global onBeforeActions. use an object to store them.
-globalOnBeforeActions = {
+globalOnBeforeActions =
   # redirect to the homepage if the current user is not logged in.
   loginRequired: (pause) =>
     if !Meteor.user()?
@@ -40,7 +38,6 @@ globalOnBeforeActions = {
       this.render "home"
       # pause rendering
       pause()
-}
 
 Router.onBeforeAction globalOnBeforeActions.loginRequired,
   except: ["home"]
