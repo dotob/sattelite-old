@@ -86,6 +86,11 @@ Schemas.FoodRun = new SimpleSchema
   date:
     type: Date
     label: "FoodRun date"
+  state:
+    type: String
+    label: "State"
+    allowedValues: ["ongoing", "closed", "finished"]
+    defaultValue: "ongoing"
   bespokenDishes:
     type: [Schemas.OrderItem]
 

@@ -10,6 +10,7 @@ if Meteor.isClient
         bespokenDishes: []
         organizer: Meteor.user()
         date: new Date()
+        state: "ongoing"
 
   Template.foodrun.events
     'click .bespeakDish': (event, foodrunTemplate) ->
