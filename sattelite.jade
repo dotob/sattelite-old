@@ -4,63 +4,83 @@ head
   meta(name="viewport" content="width=device-width, initial-scale=1")
   link(rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css")
 
+// iron router renders templates automatically within the body tag, 
+// so there's no need to call the takeaways template here.
+// actually, parts of the takeaway template would be rendered twice if you did.
+// the outer div wasn't needed anyways...
+
 body
   +loginButtons
 
 template(name="takeaways")
-  .pure-g
-    .pure-u-1-2
-      h2 So you want to start a foodrun?
-      h4.subheader Great! go ahead and choose a takeaway you want to order food with:
-      each takeaways
-        +takeawaysListItem
-    .pure-u-1-2
-      unless currentUser
-        h3 log in to start a food run.
+  if currentUser
+    .pure-g
       if foodruns.count
-        h2 But wait... There are allready foodruns!
-        h4.subheader So spare the hassle and just take part in one. Hmmmm, yum yum!
-        each foodruns
-          hr
-          .pure-u-1-2
-            h3 #{takeaway.name}
-            p #{takeaway.description}
-            p organized by: #{organizer.username}
-          .pure-u-1-2
-            a(href="{{pathFor 'foodrun'}}") Show foodrun
+        .l-box.pure-u-1.pure-u-md-1-2
+          h2 Those are the foodruns already on.
+          h4.subheader Spare the hassle and just take part in one. Hmmmm, yum yum!
+          each foodruns
+            hr
+            .l-box.pure-u-1.pure-u-md-1-2
+              h3 #{takeaway.name}
+              p #{takeaway.description}
+              p organized by: #{organizer.username}
+            .l-box.pure-u-1.pure-u-md-1-2
+              a(href="{{pathFor 'foodrun'}}") Show foodrun
+
+      .l-box.pure-u-1.pure-u-md-1-2
+        h2 So you want to start a foodrun?
+        h4.subheader Great! go ahead and choose a takeaway you want to order food with:
+        each takeaways
+          +takeawaysListItem
+  else
+    .pure-g
+      .l-box.pure-u-1
+        h1 This is 
+          b sattelite
+        h3 Log in to start a food run or to take part in one
 
 template(name="takeawaysListItem")
   hr
   .pure-g
-    .pure-u-2-3
+    .l-box.pure-u-2-3
       h3 #{name}
       p #{description}
-    .pure-u-1-3
+    .l-box.pure-u-1-3
       a(href="{{pathFor 'takeaway'}}") Show takeaway
       if currentUser
         a.startFoodrun(href="#") Start foodrun
 
 template(name="takeaway")
-  .takeaway
-    with takeaway
-      h2 #{name}
-      p #{description}
-      p #{phone}
+  .pure-g
+    .l-box.pure-u-1
+      with takeaway
+        h2 #{name}
+        p #{description}
+        p #{phone}
+      h3 The menu:
+      each takeaway.dishes
+        p #{name}
 
 template(name="foodrun")
-  .foodrun
+  .pure-g
     with foodrun
-      if bespokenDishes
-        h2 Those are the dishes already bespoken:
-        each bespokenDishes
-          h3 #{name}
-          h4 bespoken by: #{bespokenBy.username}
-      h2 This foodrun goes to: #{takeaway.name}
-      p This is the menu.
-      each takeaway.dishes
-        +dishesListItem
+      .l-box.pure-u-1.pure-u-md-1-2
+        h2 This foodrun goes to: #{takeaway.name}
+        p This is the menu
+        each takeaway.dishes
+          +dishesListItem
+        if bespokenDishes
+          .l-box.pure-u-1.pure-u-md-1-2
+            h2 Those are the dishes already bespoken:
+            p Go ahead. All delicious.
+            each bespokenDishes
+              hr
+              h3 #{name}
+              h4 bespoken by: #{bespokenBy.username}
 
 template(name="dishesListItem")
+  hr
   h3 #{name}
   if currentUser
     a.bespeakDish(href="#") bespeak dish
