@@ -24,4 +24,5 @@ if Meteor.isClient
   Template.foodrun.helpers
     isOpen: () ->
       this.state == "ongoing"
-
+    isOrganizer: () ->
+      this.organizer == Meteor.user()
