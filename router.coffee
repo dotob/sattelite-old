@@ -10,23 +10,25 @@ Router.map ->
     path: "takeaway/:_id"
     template: "takeaway"
     data: ->
-      takeaway: share.Takeaways.findOne(_id: @params._id)
+      takeaway: share.Takeaways.findOne(@params._id)
 
   @route "foodrun",
     path: "foodrun/:_id"
     template: "foodrun"
     data: ->
-      foodrun: share.FoodRuns.findOne(_id: @params._id)
-    onBeforeAction: (pause) ->
+      foodrun: share.FoodRuns.findOne(@params._id)
+    onBeforeAction: ->
       # if a foodrun is shown that is to old or finished, show home view
-      fr = share.FoodRuns.findOne(_id: @params._id)
+      fr = share.FoodRuns.findOne(@params._id) # @getData()
+      console.log "found: #{fr}"
       if !fr?
-        console.log "no such foodrun, going home"
+        console.log "no such foodrun(#{@params._id}), going home"
         Router.go "home"
       else
         d = new Date()
         yesterday = d.setDate(d.getDate() - 1);
         if fr.state == "finished" || fr.date < yesterday
+          console.log "foodrun(#{@params._id}) is finished or too old, going home"
           Router.go "home"
 
 # global onBeforeActions. use an object to store them.

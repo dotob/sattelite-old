@@ -26,3 +26,12 @@ if Meteor.isClient
       @state == "ongoing"
     isOrganizer: () ->
       @organizer._id == Meteor.userId()
+    bespokenDishesGrouped: () ->
+      ret = []
+      for id, dg of _.groupBy(@bespokenDishes, (d) -> d.order_number)
+        ret.push
+          order_number: if id? then id else "-"
+          count: dg.length
+          name: dg[0].name
+      _.sortBy ret, (dg) -> dg.order_number
+      

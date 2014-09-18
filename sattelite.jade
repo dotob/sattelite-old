@@ -82,6 +82,22 @@ template(name="foodrun")
                 td #{description}
                 td #{bespokenBy.username}
 
+      if bespokenDishesGrouped
+        .l-box.pure-u-1.pure-u-md-1-2
+          h2 Those are the dishes already bespoken (Grouped):
+          table.pure-table-striped
+            thead
+              tr
+                th how often
+                th #
+                th name
+            each bespokenDishesGrouped
+              tr
+                td #{count}
+                td #{order_number}
+                td #{name}
+
+
       .l-box.pure-u-1.pure-u-md-1-2
         h2 This foodrun goes to: #{takeaway.name}
           small #{state}
