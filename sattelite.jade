@@ -65,6 +65,23 @@ template(name="takeaway")
 template(name="foodrun")
   .pure-g
     with foodrun
+      if bespokenDishes
+        .l-box.pure-u-1.pure-u-md-1-2
+          h2 Those are the dishes already bespoken:
+          table.pure-table-striped
+            thead
+              tr
+                th #
+                th name
+                th description
+                th user
+            each bespokenDishes
+              tr
+                td #{order_number}
+                td #{name}
+                td #{description}
+                td #{bespokenBy.username}
+
       .l-box.pure-u-1.pure-u-md-1-2
         h2 This foodrun goes to: #{takeaway.name}
           small #{state}
@@ -85,22 +102,6 @@ template(name="foodrun")
               th 
           each takeaway.dishes
             +dishesListItem
-      if bespokenDishes
-        .l-box.pure-u-1.pure-u-md-1-2
-          h2 Those are the dishes already bespoken:
-          table.pure-table-striped
-            thead
-              tr
-                th #
-                th name
-                th description
-                th user
-            each bespokenDishes
-              tr
-                td #{order_number}
-                td #{name}
-                td #{description}
-                td #{bespokenBy.username}
 
 template(name="dishesListItem")
   tr
