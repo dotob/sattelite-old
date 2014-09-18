@@ -35,8 +35,8 @@ if Meteor.isServer
             password: 'benjamin'
             email:    'mail@benjaminbuch.de'
         Accounts.createUser
-            username: 'sebastian'
-            password: 'sebastian'
+            username: 'basti'
+            password: 'basti'
             email:    'sk@dotob.de'
         Accounts.createUser
             username: 'niklas'
