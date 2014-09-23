@@ -17,8 +17,12 @@ Schemas.User = new SimpleSchema
     type: Boolean
   createdAt:
     type: Date
+  services:
+    type: Object
+    optional: true
+    blackbox: true
 
-#Meteor.users.attachSchema Schemas.User
+Meteor.users.attachSchema Schemas.User
 
 share.Dishes = new Meteor.Collection "dishes"
 Schemas.Dish = new SimpleSchema
