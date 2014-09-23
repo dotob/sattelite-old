@@ -11,6 +11,11 @@ if Meteor.isClient
         organizer: Meteor.user()
         date: new Date()
         state: "ongoing"
+      # send to everybody...
+      Meteor.call('sendEmail',
+                  'sk@dotob.de',
+                  'Hello from sattelite!',
+                  'This is a test of Email.send.')
 
   Template.foodrun.events
     'click .bespeakDish': (event, foodrunTemplate) ->

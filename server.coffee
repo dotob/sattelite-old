@@ -42,3 +42,22 @@ if Meteor.isServer
             username: 'niklas'
             password: 'niklas'
             email:    'niklas@niklas.de'
+
+  # In your server code: define a method that the client can call
+  Meteor.methods
+    sendEmail: (to, subject, text) ->
+      # Let other method calls from the same client start running,
+      # without waiting for the email sending to complete.
+      @unblock()
+
+      # don’t allow sending email unless the user is logged in
+      if !Meteor.userId()
+        throw new Meteor.Error(403, "not logged in")
+
+      # and here is where you can throttle the number of emails this user
+      # is allowed to send per day
+      Email.send
+        to: to
+        from: "mailer@sattelite.org"
+        subject: subject
+        text: text
