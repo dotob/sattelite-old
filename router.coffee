@@ -19,8 +19,7 @@ Router.map ->
       foodrun: share.FoodRuns.findOne(@params._id)
     onBeforeAction: ->
       # if a foodrun is shown that is to old or finished, show home view
-      fr = share.FoodRuns.findOne(@params._id) # @getData()
-      console.log "found: #{fr}"
+      fr = @data()
       if !fr?
         console.log "no such foodrun(#{@params._id}), going home"
         Router.go "home"
@@ -35,7 +34,7 @@ Router.map ->
 globalOnBeforeActions =
   # redirect to the homepage if the current user is not logged in.
   loginRequired: (pause) =>
-    if !Meteor.user()?
+    if !Meteor.userId()?
       # render the home page template, but keep the url
       this.render "home"
       # pause rendering
