@@ -74,6 +74,10 @@ Schemas.Takeaway = new SimpleSchema
     type: [Schemas.Dish]
     label: "Dishes"
     optional: true
+  likes:
+    type: [String]
+    optional: true
+    label: "Likes"
 
 share.Takeaways.attachSchema Schemas.Takeaway
 

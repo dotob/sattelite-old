@@ -11,11 +11,27 @@ if Meteor.isClient
         organizer: Meteor.user()
         date: new Date()
         state: "ongoing"
-      # send to everybody...
-      Meteor.call('sendEmail',
-                  'sk@dotob.de',
-                  'Hello from sattelite!',
-                  'This is a test of Email.send.')
+      # send to everyone who likes this 
+      for userId in takeaway.likes
+        if userId != Meteor.userId() # do not send this mail to the current user
+          Meteor.call('sendEmail',
+                      userId,
+                      "A new foodrun is started for #{takeaway.name}! Go for it!",
+                      "You got this email because you liked #{takeaway.name}. If you dont anymore unlike it here: TODO")
+
+    'click .like': (event) ->
+      takeaway = share.Takeaways.findOne({_id: this._id})
+      share.Takeaways.update({_id: takeaway._id}, {$push: {likes: Meteor.userId()}})
+
+    'click .unLike': (event) ->
+      takeaway = share.Takeaways.findOne({_id: this._id})
+      share.Takeaways.update({_id: takeaway._id}, {$pull: {likes: Meteor.userId()}})
+
+  Template.takeawaysListItem.helpers
+    currentUserLikes: () ->
+      takeaway = share.Takeaways.findOne({_id: this._id})
+      _.contains takeaway.likes, Meteor.userId()
+
 
   Template.foodrun.events
     'click .bespeakDish': (event, foodrunTemplate) ->

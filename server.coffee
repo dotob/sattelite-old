@@ -16,7 +16,7 @@ if Meteor.isServer
         dish.takeaway = ""
         dish_id = share.Dishes.insert dish
         new_dish = share.Dishes.findOne(dish_id)
-        
+
         ta = share.Takeaways.findOne({name: t.name})
         # if takeaway does not exists add it
         if !ta
@@ -45,7 +45,7 @@ if Meteor.isServer
 
   # In your server code: define a method that the client can call
   Meteor.methods
-    sendEmail: (to, subject, text) ->
+    sendEmail: (to_userId, subject, text) ->
       # Let other method calls from the same client start running,
       # without waiting for the email sending to complete.
       @unblock()
@@ -56,8 +56,10 @@ if Meteor.isServer
 
       # and here is where you can throttle the number of emails this user
       # is allowed to send per day
-      Email.send
-        to: to
-        from: "mailer@sattelite.org"
-        subject: subject
-        text: text
+      user = Meteor.users.findOne({_id: to_userId})
+      if user
+        Email.send
+          to: user.emails[0].address
+          from: "mailer@sattelite.org"
+          subject: subject
+          text: text

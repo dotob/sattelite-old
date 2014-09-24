@@ -50,6 +50,10 @@ template(name="takeawaysListItem")
       a(href="{{pathFor 'takeaway'}}") Show takeaway
       if currentUser
         a.startFoodrun(href="#") Start foodrun
+        if currentUserLikes
+          a.unLike(href="#") Unlike
+        else
+          a.like(href="#") Like
 
 template(name="takeaway")
   .pure-g
