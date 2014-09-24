@@ -112,6 +112,12 @@ template(name="foodrun")
             a.reopenFoodrun(href="#") reopen foodrun
         p This is the menu
         p Go ahead. All delicious.
+
+        +ifEsInputIsEmpty index="dishes" id="search"
+          .please-search Search for a name or description (e.g. pizza)
+
+        +esInput index="dishes" placeholder="Search..."
+
         table.pure-table-striped
           thead
             tr
@@ -120,8 +126,11 @@ template(name="foodrun")
               th description
               th price
               th 
-          each takeaway.dishes
-            +dishesListItem
+        +esEach index="dishes"
+          +dishesListItem
+
+        +ifEsHasNoResults index="dishes" id="search" logic="OR"
+          .no-results No results found!
 
 template(name="dishesListItem")
   tr

@@ -16,4 +16,5 @@ accounts-ui
 aldeed:simple-schema@1.0.3
 aldeed:collection2@2.0.0
 email
+matteodem:easy-search
 
