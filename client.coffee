@@ -6,7 +6,8 @@ if Meteor.isClient
     'click .startFoodrun': (event) ->
       takeaway = share.Takeaways.findOne({_id: this._id})
       share.FoodRuns.insert
-        takeaway: takeaway
+        takeaway: takeaway._id
+        takeaway_name: takeaway.name
         bespokenDishes: []
         organizer: Meteor.user()
         date: new Date()

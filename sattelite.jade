@@ -103,7 +103,7 @@ template(name="foodrun")
 
 
       .l-box.pure-u-1.pure-u-md-1-2
-        h2 This foodrun goes to: #{takeaway.name}
+        h2 This foodrun goes to: #{takeaway_name}
           small #{state}
         if isOrganizer
           if isOpen
@@ -118,19 +118,13 @@ template(name="foodrun")
 
         +esInput index="dishes" placeholder="Search..."
 
-        table.pure-table-striped
-          thead
-            tr
-              th #
-              th name
-              th description
-              th price
-              th 
+        +ifEsHasNoResults index="dishes"
+          .no-results No results found!
+        +else
+          table.pure-table-striped
         +esEach index="dishes"
           +dishesListItem
 
-        +ifEsHasNoResults index="dishes" id="search" logic="OR"
-          .no-results No results found!
 
 template(name="dishesListItem")
   tr

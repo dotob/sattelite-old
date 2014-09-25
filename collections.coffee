@@ -89,7 +89,11 @@ Schemas.FoodRun = new SimpleSchema
     max: 200
   takeaway:
     type: String
-    label: "Takeaway"
+    label: "Takeaway ID"
+    max: 200
+  takeaway_name:
+    type: String
+    label: "Takeaway Name"
     max: 200
   date:
     type: Date

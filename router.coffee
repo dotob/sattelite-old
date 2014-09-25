@@ -29,6 +29,10 @@ Router.map ->
         if fr.state == "finished" || fr.date < yesterday
           console.log "foodrun(#{@params._id}) is finished or too old, going home"
           Router.go "home"
+        else
+          # is this right here??
+          console.log "set searcher to takeaway: #{fr.takeaway} of #{fr}"
+          EasySearch.changeProperty('dishes', 'takeaway', "oHc33hwkpxwu69P7A")#fr.takeaway)
 
 # global onBeforeActions. use an object to store them.
 globalOnBeforeActions =
