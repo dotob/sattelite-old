@@ -19,7 +19,7 @@ Router.map ->
       foodrun: share.FoodRuns.findOne(@params._id)
     onBeforeAction: ->
       # if a foodrun is shown that is to old or finished, show home view
-      fr = @data()
+      fr = @data().foodrun
       if !fr?
         console.log "no such foodrun(#{@params._id}), going home"
         Router.go "home"
@@ -32,7 +32,7 @@ Router.map ->
         else
           # is this right here??
           console.log "set searcher to takeaway: #{fr.takeaway} of #{fr}"
-          EasySearch.changeProperty('dishes', 'takeaway', "oHc33hwkpxwu69P7A")#fr.takeaway)
+          EasySearch.changeProperty('dishes', 'takeaway', fr.takeaway)
 
 # global onBeforeActions. use an object to store them.
 globalOnBeforeActions =

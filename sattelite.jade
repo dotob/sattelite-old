@@ -22,8 +22,8 @@ template(name="home")
           each foodruns
             hr
             .l-box.pure-u-1.pure-u-md-1-2
-              h3 #{takeaway.name}
-              p #{takeaway.description}
+              h3 #{takeaway_name}
+              p #{takeaway_description}
               p organized by: #{organizer.username}
             .l-box.pure-u-1.pure-u-md-1-2
               a(href="{{pathFor 'foodrun'}}") Show foodrun

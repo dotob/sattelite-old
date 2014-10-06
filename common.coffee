@@ -7,6 +7,7 @@ EasySearch.createSearchIndex('dishes',
   'query' : (searchString) ->
     # Default query that will be used for searching
     query = EasySearch.getSearcher(@use).defaultQuery(@, searchString)
+    console.log "ta: #{@takeaway}"
     if @takeaway
       query.takeaway = @takeaway
     query

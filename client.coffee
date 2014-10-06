@@ -8,6 +8,7 @@ if Meteor.isClient
       share.FoodRuns.insert
         takeaway: takeaway._id
         takeaway_name: takeaway.name
+        takeaway_description: takeaway.description
         bespokenDishes: []
         organizer: Meteor.user()
         date: new Date()
