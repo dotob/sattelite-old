@@ -68,6 +68,9 @@ template(name="takeaway")
 
 template(name="foodrun")
   .pure-g
+    if favorites
+      each favorites
+        p name
     with foodrun
       if bespokenDishes
         .l-box.pure-u-1.pure-u-md-1-2
