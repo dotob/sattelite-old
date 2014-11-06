@@ -4,15 +4,18 @@ Router.map ->
     template: "home"
     data: ->
       takeaways: ->
+        console.log "hello"
         share.Takeaways.find()
       foodruns: ->
-        d = new Date()
         console.log "hello"
+        d = new Date()
         month = if d.getMonth() < 10 then "0#{d.getMonth()}" else d.getMonth()
         day = if d.getDate() < 10 then "0#{d.getDate()}" else d.getDate()
         dstr = "#{d.getFullYear()}-#{month}-#{day}T00:00:00Z"
         console.log dstr
-        share.FoodRuns.find({date: { $gte: new Date(dstr)}, state: "ongoing"})
+        fr = share.FoodRuns.find({date: { $gte: new Date(dstr)}, state: "ongoing"})
+        console.dir fr.fetch()
+        fr
 
   @route "takeaway",
     path: "takeaway/:_id"

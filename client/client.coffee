@@ -1,7 +1,7 @@
 if Meteor.isClient
   # config
   Accounts.ui.config { passwordSignupFields: 'USERNAME_AND_EMAIL' }
-  
+
   Template.takeawaysListItem.events
     'click .startFoodrun': (event) ->
       takeaway = share.Takeaways.findOne({_id: this._id})
@@ -57,4 +57,4 @@ if Meteor.isClient
           count: dg.length
           name: dg[0].name
       _.sortBy ret, (dg) -> dg.order_number
-      
+
