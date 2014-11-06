@@ -7,15 +7,12 @@ Router.map ->
         console.log "hello"
         share.Takeaways.find()
       foodruns: ->
-        console.log "hello"
         d = new Date()
-        month = if d.getMonth() < 10 then "0#{d.getMonth()}" else d.getMonth()
+        m = d.getMonth()+1
+        month = if m < 10 then "0#{m}" else m
         day = if d.getDate() < 10 then "0#{d.getDate()}" else d.getDate()
         dstr = "#{d.getFullYear()}-#{month}-#{day}T00:00:00Z"
-        console.log dstr
-        fr = share.FoodRuns.find({date: { $gte: new Date(dstr)}, state: "ongoing"})
-        console.dir fr.fetch()
-        fr
+        share.FoodRuns.find({date: { $gte: new Date(dstr)}, state: "ongoing"})
 
   @route "takeaway",
     path: "takeaway/:_id"
@@ -45,14 +42,15 @@ Router.map ->
         favorite_dishes
 
     onBeforeAction: ->
+      console.log "bla"
       # if a foodrun is shown that is to old or finished, show home view
       fr = @data().foodrun
       if !fr?
         console.log "no such foodrun(#{@params._id}), going home"
         Router.go "home"
       else
-        d = new Date()
-        yesterday = d.setDate(d.getDate() - 1);
+        yesterday = moment().day(-1).toDate()
+        console.log yesterday.toString()
         if fr.state == "finished" || fr.date < yesterday
           console.log "foodrun(#{@params._id}) is finished or too old, going home"
           Router.go "home"
@@ -71,5 +69,5 @@ globalOnBeforeActions =
       # pause rendering
       pause()
 
-Router.onBeforeAction globalOnBeforeActions.loginRequired,
-  except: ["home"]
+#Router.onBeforeAction globalOnBeforeActions.loginRequired,
+#  except: ["home"]
